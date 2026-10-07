@@ -1,0 +1,549 @@
+{
+ "site": {
+  "url": "https://diegomotion.net",
+  "name": "Diegomotion",
+  "person": "Diego Salas",
+  "email": "diego@diegomotion.net",
+  "phones": [
+   "+34 666 262 884",
+   "+51 944 660 553"
+  ],
+  "logo": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/9b64b501-cec9-4905-942d-312c6960a24b/Logo+sketch+transparent.png",
+  "favicon": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/aa470bd6-05bc-4433-9ec1-35f87a0bfbcd/favicon.png",
+  "social": {
+   "linkedin": "https://www.linkedin.com/in/diegosalastorres/",
+   "tiktok": "https://www.tiktok.com/@diegoinmotion_",
+   "instagram": "https://www.instagram.com/diegomotion_/"
+  },
+  "default_description": "Diego Salas is a video editor and motion designer (Diegomotion): story-driven editing, motion design and animation for campaigns, paid social ads and music videos. Lima · Madrid · remote.",
+  "r2_public": "https://pub-d81255e867a5470eba99832bd248137a.r2.dev"
+ },
+ "nav": [
+  {
+   "label": "Home",
+   "href": "/"
+  },
+  {
+   "label": "About",
+   "href": "/bio/",
+   "children": [
+    {
+     "label": "Bio",
+     "href": "/bio/"
+    },
+    {
+     "label": "Press",
+     "href": "/press/"
+    },
+    {
+     "label": "Contact",
+     "href": "/contact/"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "instagram": [
+   "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1775859119537-71CYY38A3HFOK0EM37SB/image-asset.jpeg",
+   "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1775859119537-8JPKNS0AKAI1IU975354/image-asset.jpeg",
+   "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1775859119537-EXHSNS8U3IH36OBZ243O/image-asset.jpeg",
+   "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1775859119537-V1N23D2O9LOM5LV3E8NK/image-asset.jpeg",
+   "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1764112701653-YBOAZAOF6T06PWX1O4SQ/image-asset.jpeg",
+   "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1758227913702-OI41ME56OCMI9TYOQYWV/image-asset.jpeg"
+  ]
+ },
+ "home": {
+  "title": "Diego Salas | Video Editor & Motion Designer — Diegomotion",
+  "description": "Animation & music video director. I write, direct and animate sci-fi and music-driven stories end to end — concept to final color. Diegomotion by Diego Salas.",
+  "og_image": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/88d33380-1433-4cd2-b5ed-763723dd79d3/Purple_Alpaca_Birds.gif",
+  "hero": {
+   "bg": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/88d33380-1433-4cd2-b5ed-763723dd79d3/Purple_Alpaca_Birds.gif",
+   "name": "Diego Salas",
+   "tagline": "Story-Driven Editing & Motion Design | Campaigns, Social Ads & Music Videos",
+   "cta": {
+    "label": "Book a meeting",
+    "href": "/contact/"
+   }
+  },
+  "about": {
+   "heading": "About me",
+   "html": "<p>I’m a visual artist focused on animation and motion design. I mix new tools with traditional craft to create visuals that feel fresh, distinctive, and built with intention.</p><p>Over the years, I’ve worked across music, advertising, and independent projects. I’ve created projection mapped visuals, branded content, and fully animated music videos, often taking things from the first idea all the way to final delivery. I like pushing concepts past the obvious and finding the version that feels bold and clear. Sometimes that means building experimental looks in ComfyUI, sometimes it is character work in Toon Boom, and sometimes it is shaping the final polish in After Effects and DaVinci.</p><p>At the core, I care about storytelling and imagination. I love taking a simple concept and turning it into something that feels alive, something that pulls people in and makes them stop for a moment.</p><p>I’m always open to new collaborations with brands, agencies, and other creatives. If you have a project you want to bring to life, I’d love to connect.</p><p><a href=\"/bio\">Read more.</a></p>",
+   "photo": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/8de8a44d-9418-4408-9c67-4867fed4f1f8/IMG_9426.jpg"
+  },
+  "testimonials": {
+   "heading": "Recommendations",
+   "sub": "Sourced from LinkedIn",
+   "items": [
+    {
+     "quote": "Diego's work is top tier and the effort he puts into understanding the objective of the project really helped solidify the vision. With a large skillset in all types of digital art, Diego is a great choice for whatever project you are looking for. I would highly recommend and look forward to working with him on more projects in the future.",
+     "who": "Michael Dwyer: Producer / Songwriter at Sony / ATV",
+     "img": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/be712a5a-d7be-470c-8fef-30e77c38f4d9/1736171993258.jpeg"
+    },
+    {
+     "quote": "Diego is a talented graphic designer, illustrator, and creative partner. He is among the first of visual artists to come to mind when my clients are in need of being referred to someone that can attend to their specific customized needs with nuance and tact in a timely manner.",
+     "who": "Daniel Catalan: Resume Writer",
+     "img": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/e1bd9891-bf7c-4021-b541-4caf68d645a9/1729631191135.jpeg"
+    },
+    {
+     "quote": "Diego made us a great logo very quickly. He followed the idea we had in mind yet added his own creative edge to the design, which was awesome!",
+     "who": "Daphne Binioris: Marketing Director",
+     "img": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/a30ae937-69e7-4159-aaa1-e74e2bf9aab1/1675851952437.jpeg"
+    },
+    {
+     "quote": "I've had the pleasure of working with Diego on various projects both for myself and in collaboration with clients.  Diego's attention to detail and ability to create visuals are truly something to be admired.",
+     "who": "Kenneth Ekow: Content Strategy / Start-up Consulting",
+     "img": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/21ea8f0a-ef3f-4471-9403-51b08e6c1ada/1736957209895.jpeg"
+    },
+    {
+     "quote": "Diego helped me with some visual components that complemented music I was working on. Diego is professional and working with him was a smooth process that enabled us to reach a result that I was happy with. Recommended.",
+     "who": "Fergus Brady: Musician",
+     "img": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/a350bbcd-0fe2-4f25-8d10-0a6a437f2b9e/1741382121451.jpeg"
+    },
+    {
+     "quote": "I worked alongside Diego for his audiovisual project Synesthesia. It was a blast, and Diego is so easy-going and open-minded when it comes to developing a project. He's a great person to collaborate with and an extremely talented artist. I look forward to working together again soon!",
+     "who": "Meag Gardner: English Linguist &amp; UX Writer",
+     "img": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/4be8c654-43b6-4291-929c-3e4f36125892/1750080355514.jpeg"
+    }
+   ]
+  },
+  "reel": {
+   "heading": "Demo Reel 2026",
+   "html": "<p>I just put together a new demo reel that reflects what I’m doing now: AI video production, animation, and paid ad design, with a workflow that still starts and ends with craft. Sometimes I explore looks in ComfyUI. Sometimes I do character work in Toon Boom or Cinema 4D. Sometimes it is all about the final polish in After Effects and DaVinci. Whatever the pipeline, the goal is to make something bold, clear, and alive.<b><b>If you need scalable motion assets, end cards, or video adaptations across formats and markets, I’d love to help.<b><b>Watch the reel, and if it resonates, let’s talk.</p>",
+   "video": "demo-reel-2026",
+   "cta": {
+    "label": "Book a meeting",
+    "href": "/contact/"
+   }
+  },
+  "marketing": {
+   "heading": "Marketing design",
+   "videos": [
+    "marketing-01",
+    "marketing-02"
+   ],
+   "loops": [
+    "loop-01",
+    "loop-02"
+   ],
+   "loop_images": [
+    "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/ed3dced0-6d5e-4e6f-9945-33cadc48de68/Historia+para+Instagram+Siempre+Caf%C3%A9+Motivaci%C3%B3n+Fotogr%C3%A1fico+Blanco.png",
+    "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/45bf06f9-22ed-4f17-818e-ef7ff048f772/1726559953563.jpg"
+   ],
+   "gallery": [
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/eb0a904e-7bcf-44c7-9a68-10c10f979d05/aviva.png",
+     "href": null,
+     "caption": null,
+     "alt": "aviva.png"
+    },
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/7375a020-cebd-4a90-97df-19772f28b1a9/vaan.png",
+     "href": null,
+     "caption": null,
+     "alt": "vaan.png"
+    },
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/ec16a18a-c4e8-4352-a510-ed9cc2f1f775/Rosa+y+Rojo+Moderno+Venta+D%C3%ADa+de+la+Madre+Post+para+Facebook.png",
+     "href": null,
+     "caption": null,
+     "alt": "Rosa y Rojo Moderno Venta Día de la Madre Post para Facebook.png"
+    },
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/66048e16-19c7-44e4-a64b-8c9a947959b6/Eliana+Torres.gif",
+     "href": null,
+     "caption": null,
+     "alt": "Eliana Torres.gif"
+    }
+   ]
+  },
+  "paid_social": {
+   "heading": "Paid Social Ads",
+   "text": "Direct-response and UGC-style ads for social — concept, edit, and motion design. English and Spanish, cut for 9:16, 4:5 and 16:9.",
+   "videos": [
+    "paid-social-01",
+    "paid-social-02",
+    "paid-social-03",
+    "paid-social-04",
+    "paid-social-05"
+   ]
+  },
+  "covers": [
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/69bce7cd-4323-4e6b-ab7f-c714cb5a77f8/Wasted+Time+Cover+Art.jpg",
+    "href": null,
+    "caption": null,
+    "alt": "Wasted Time Cover Art.jpg"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1642006667152-ESQYV0SRA79MIUWFOZU0/Kyle+MAGNVS+Waiting+cover.jpg",
+    "href": null,
+    "caption": null,
+    "alt": "Kyle MAGNVS Waiting cover.jpg"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/7815b4ee-2b84-44c0-9c67-18958145f1ef/everybody+eats+2018.jpg",
+    "href": null,
+    "caption": null,
+    "alt": "everybody eats 2018.jpg"
+   }
+  ],
+  "stills": [
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1641440769396-P9LF5BZ9NYT1M2YX4BZ1/Kylemagnvs_waiting.gif",
+    "href": null,
+    "caption": null,
+    "alt": "Kylemagnvs_waiting.gif"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1641955489940-BRIBR52J84GRK5S3XRDM/Kyle_MAGNVS_Waiting_3.gif",
+    "href": null,
+    "caption": null,
+    "alt": "Kyle_MAGNVS_Waiting_3.gif"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/ac240226-2322-4a9a-b9fa-f17c27cf275f/Kyle_MAGNVS_Waiting_1.gif",
+    "href": null,
+    "caption": null,
+    "alt": "Kyle_MAGNVS_Waiting_1.gif"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/2957f291-3816-4144-927d-4eacd43a4a06/DWYR_wasted_time_1.gif",
+    "href": null,
+    "caption": null,
+    "alt": "DWYR_wasted_time_1.gif"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/f4eed38e-b172-44a7-9a2e-ab18ed913fac/DWYR_wasted_time_2.gif",
+    "href": null,
+    "caption": null,
+    "alt": "DWYR_wasted_time_2.gif"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1641442361162-BXWCRA5MYQA18I1ZNSMC/DWYR_Wasted_time_1.gif",
+    "href": null,
+    "caption": null,
+    "alt": "DWYR_Wasted_time_1.gif"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/20038f1c-0768-4096-975a-3962a516aba4/Purple_Alpaca_The_Othahood_San_Isidro.gif",
+    "href": null,
+    "caption": null,
+    "alt": "Purple_Alpaca_The_Othahood_San_Isidro.gif"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/ecb3e65e-e0ed-4f7e-b1d7-ae86b68ae960/Purple_Alpaca_The_Othahood_Halloween.gif",
+    "href": null,
+    "caption": null,
+    "alt": "Purple_Alpaca_The_Othahood_Halloween.gif"
+   }
+  ],
+  "logos": [
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/fab0a7ed-8d77-4873-891b-900f04227ba2/Adlab4.gif",
+    "href": null,
+    "caption": null,
+    "alt": "Adlab4.gif"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/00dd8c16-6071-4c3e-b153-b512caf36928/Adlab7.gif",
+    "href": null,
+    "caption": null,
+    "alt": "Adlab7.gif"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/301ed3bf-484a-4872-b485-8d1cbf5435f5/Adlab2.gif",
+    "href": null,
+    "caption": null,
+    "alt": "Adlab2.gif"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/f52c4f6f-f200-4bde-bda6-0aff3c1e17b2/Adlab5.gif",
+    "href": null,
+    "caption": null,
+    "alt": "Adlab5.gif"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/54dd6672-96a5-48e7-b1c6-c13458b7cc3e/Adlab6.gif",
+    "href": "/logo-design",
+    "caption": null,
+    "alt": "Adlab6.gif"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/767f05ea-1783-4f1a-adc3-f01c01aff0b6/Adlab1.gif",
+    "href": null,
+    "caption": null,
+    "alt": "Adlab1.gif"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/a23ed52b-1a75-43a8-a9ed-931a4edc81ef/Hidden+Gem+Logo+Black-01.jpg",
+    "href": null,
+    "caption": null,
+    "alt": "Hidden Gem Logo Black-01.jpg"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1670341431564-KZPQKWOL214WJ62HYCBB/Hidden+Gem+Logo+Animation.gif",
+    "href": null,
+    "caption": null,
+    "alt": "Hidden Gem Logo Animation.gif"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/16b445f6-849a-4867-bf81-fb6e3ad217f6/Hidden+Gem+Logo+White.jpg",
+    "href": null,
+    "caption": null,
+    "alt": "Hidden Gem Logo White.jpg"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/54ad93fe-62be-42bb-9048-b5a67c1b20a0/N%26M+logo+color+3.jpg",
+    "href": null,
+    "caption": null,
+    "alt": "N&M logo color 3.jpg"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/74e34f82-61a6-43fc-85cf-ca55dfd7fc1f/N%26M+animated+gif.gif",
+    "href": "/logo-design",
+    "caption": null,
+    "alt": "N&M animated gif.gif"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/b946605b-8ff9-4ed4-9f0e-55f0442a559d/N%26M+logo+black.jpg",
+    "href": null,
+    "caption": null,
+    "alt": "N&M logo black.jpg"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/de7c1e91-e626-4029-bf7a-ae8b1d7c29e8/N%26M+logo+white.jpg",
+    "href": null,
+    "caption": null,
+    "alt": "N&M logo white.jpg"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/f45b9802-5590-4bbb-a59f-0adfb0041834/black_DAN+CATALAN+WRITER+LOGO.jpg",
+    "href": null,
+    "caption": null,
+    "alt": "black_DAN CATALAN WRITER LOGO.jpg"
+   },
+   {
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1670343488224-AI3JWBZLMR74Z7HP9KU4/color_DAN+CATALAN+WRITER+LOGO-01.jpg",
+    "href": null,
+    "caption": null,
+    "alt": "color_DAN CATALAN WRITER LOGO-01.jpg"
+   }
+  ],
+  "zealot": {
+   "heading": "ZEALOT: my animated short film",
+   "html": "<p>Excited to share ZEALOT, my sci fi revenge story told as an animated music video. This was a full creative odyssey. I directed, wrote, animated, and handled post production myself, blending traditional animation with a hybrid pipeline using Cinema 4D, ComfyUI, Toon Boom, After Effects, and DaVinci.</p><p>Big shoutout to Trey Russell for trusting me with his song and giving me the creative freedom to build the story and world. If you are into 90s animation and sci fi world building, I think you will enjoy this one.</p>",
+   "video": "zealot"
+  },
+  "zealot_bts": {
+   "heading": "ZEALOT: behind the scenes",
+   "html": "<p>A sneak peek into the production process of my short film Zealot.</p>",
+   "video": "zealot-bts"
+  },
+  "projects": {
+   "heading": "Outstanding projects",
+   "items": [
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/8ba917cc-1e23-4825-b414-984acb54964a/girl+walking++gif+2.gif",
+     "href": "https://www.youtube.com/watch?v=zNluJ7MMjkw",
+     "caption": "Music visualizer for MRT - Holding On To What's lost",
+     "alt": "Music visualizer for MRT - Holding On To What's lost"
+    },
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/3cf16e96-dca7-4c64-974a-aed707160df6/abstract+MR++gif+2.gif",
+     "href": "https://www.youtube.com/watch?v=dnl4Un2DhLs",
+     "caption": "Music visualizer for MRT - Calling Your Name",
+     "alt": "Music visualizer for MRT - Calling Your Name"
+    },
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/21f7d9aa-d60a-4bd6-96f8-b441530264d4/girl+flying++gif+2.gif",
+     "href": "https://www.youtube.com/watch?v=H_cMphs0b1M",
+     "caption": "Music visualizer for MRT - Find Yourself Again",
+     "alt": "Music visualizer for MRT - Find Yourself Again"
+    },
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1166bee5-f092-42bd-90fd-754a49029465/colombia.gif",
+     "href": "https://www.instagram.com/p/CylvGNGgOXD/?igshid=MzRlODBiNWFlZA%3D%3D&utm_source=ig_web_copy_link",
+     "caption": "Map Animations for PBS docuseries",
+     "alt": "Map Animations for PBS docuseries"
+    },
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/7d7b73db-24b3-4939-abb6-2c64bcd5741b/flowers+comp+gif.gif",
+     "href": "https://www.instagram.com/p/DNitn7GKg1r/",
+     "caption": "AI nature series",
+     "alt": "AI nature series"
+    },
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/49599904-89c9-4ada-93de-448d905986d9/Kyle_MAGNVS_Waiting_2.gif",
+     "href": "https://www.youtube.com/watch?v=PnjjJdxDa4w",
+     "caption": "Kyle MAGNVS - Waiting music video",
+     "alt": "Kyle MAGNVS - Waiting music video"
+    }
+   ]
+  },
+  "rows": [
+   {
+    "heading": "AI Art",
+    "href": "/illustration/",
+    "items": [
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/18e73764-a79b-4e32-8d14-1fa13822e723/cat.gif",
+      "href": null,
+      "caption": null,
+      "alt": "cat.gif"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/3150ab05-747b-4ad5-93bc-7f8aa8e99c19/trippy2.gif",
+      "href": null,
+      "caption": null,
+      "alt": "trippy2.gif"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/4fda87bb-ccf6-43ea-8cf1-4249f903ac0d/trippy1.gif",
+      "href": null,
+      "caption": null,
+      "alt": "trippy1.gif"
+     }
+    ]
+   },
+   {
+    "heading": "Music Video",
+    "href": "/musicvideo/",
+    "items": [
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1641955088145-5Y8MEE0F6QPR5LW5R0RF/DWYR_wasted_time_1.gif",
+      "href": "/musicvideo/dwyr-wasted-time/"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1641955489940-BRIBR52J84GRK5S3XRDM/Kyle_MAGNVS_Waiting_3.gif",
+      "href": "/musicvideo/kyle-magnvs-waiting/"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1641955570260-3R1KTEG3NIINYHN4P4RZ/Rock_my_world.gif",
+      "href": "/musicvideo/drobceo-rock-my-world/"
+     }
+    ]
+   },
+   {
+    "heading": "Live Visuals",
+    "href": "/live-visuals/",
+    "items": [
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/ecb3e65e-e0ed-4f7e-b1d7-ae86b68ae960/Purple_Alpaca_The_Othahood_Halloween.gif",
+      "href": "https://www.instagram.com/p/CVlqNaujPzz/",
+      "caption": null,
+      "alt": "Purple_Alpaca_The_Othahood_Halloween.gif"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/a7b62e87-3bc8-4f75-8c50-a59c2cbc6dfb/Synesthesia_2.gif",
+      "href": "https://www.youtube.com/watch?v=_n2V2lL8vDc",
+      "caption": null,
+      "alt": "Synesthesia_2.gif"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/20038f1c-0768-4096-975a-3962a516aba4/Purple_Alpaca_The_Othahood_San_Isidro.gif",
+      "href": "https://www.youtube.com/watch?v=U-tPQ1L9tYQ",
+      "caption": null,
+      "alt": "Purple_Alpaca_The_Othahood_San_Isidro.gif"
+     }
+    ]
+   },
+   {
+    "heading": "Personal",
+    "href": "/animation/",
+    "items": [
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/e39d9060-6e86-4b5e-8064-645a3779bfee/Purple_Alpaca_Skate.gif",
+      "href": "https://www.instagram.com/p/CGhZNfvKeKX/",
+      "caption": null,
+      "alt": "Purple_Alpaca_Skate.gif"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1e03c636-33c1-46a3-917b-a22f3205bd98/Purple_Alpaca_Jellyfish.gif",
+      "href": "https://www.instagram.com/p/B5GSFfoq7Gb/",
+      "caption": null,
+      "alt": "Purple_Alpaca_Jellyfish.gif"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/8f427939-f434-479f-ae76-43a6c9382d62/Purple_Alpaca_Pyramids.gif",
+      "href": "https://www.instagram.com/p/B5AYwpAq13O/",
+      "caption": null,
+      "alt": "Purple_Alpaca_Pyramids.gif"
+     }
+    ]
+   }
+  ]
+ },
+ "pages": {
+  "bio": {
+   "source": "bio",
+   "path": "/bio/",
+   "title": "Bio — Diego Salas",
+   "description": "About Diego Salas: video editor, motion designer and animation director behind Diegomotion, working between Lima and Madrid."
+  },
+  "press": {
+   "source": "press",
+   "path": "/press/",
+   "title": "Press — Diego Salas",
+   "description": "Press and features about Diego Salas and Diegomotion."
+  },
+  "contact": {
+   "source": "contact",
+   "path": "/contact/",
+   "title": "Contact — Diego Salas",
+   "description": "Book a meeting or email Diego Salas about editing, motion design, animation or paid social video work.",
+   "kind": "contact"
+  },
+  "privacy": {
+   "source": "politica-de-privacidad",
+   "path": "/politica-de-privacidad/",
+   "title": "Privacy policy — Diegomotion",
+   "description": "Privacy policy for diegomotion.net."
+  },
+  "animation": {
+   "source": "animation",
+   "path": "/animation/",
+   "title": "Personal animation — Diego Salas",
+   "description": "Personal animation experiments and loops by Diego Salas."
+  },
+  "illustration": {
+   "source": "illustration",
+   "path": "/illustration/",
+   "title": "AI Art & illustration — Diego Salas",
+   "description": "AI art and illustration explorations by Diego Salas (Diegomotion)."
+  }
+ },
+ "portfolio": [
+  {
+   "source": "musicvideo",
+   "path": "/musicvideo/",
+   "title": "Music videos — Diego Salas",
+   "heading": "Music Video",
+   "description": "Music videos directed, edited and animated by Diego Salas.",
+   "item_description": "{title}: music video by Diego Salas (Diegomotion)."
+  },
+  {
+   "source": "live-visuals",
+   "path": "/live-visuals/",
+   "title": "Live visuals — Diego Salas",
+   "heading": "Live Visuals",
+   "description": "Projection-mapped and live visuals by Diego Salas.",
+   "item_description": "{title}: live visuals by Diego Salas (Diegomotion)."
+  },
+  {
+   "source": "album-cover",
+   "path": "/album-cover/",
+   "title": "Album covers — Diego Salas",
+   "heading": "Album Cover",
+   "description": "Album cover art by Diego Salas.",
+   "item_description": "{title}: album cover art by Diego Salas."
+  },
+  {
+   "source": "logo-design",
+   "path": "/logo-design/",
+   "title": "Logo design — Diego Salas",
+   "heading": "Logo Design",
+   "description": "Logo design and logo animation by Diego Salas.",
+   "item_description": "{title}: logo design and animation by Diego Salas."
+  }
+ ]
+}

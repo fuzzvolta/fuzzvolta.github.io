@@ -1,0 +1,1535 @@
+{
+ "album-cover": {
+  "file": "album-cover.html",
+  "title": "Album Cover — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": null,
+  "sections": [
+   {
+    "id": "6a68dfd4b73eb440445bc92c",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": []
+   }
+  ],
+  "portfolio": [
+   {
+    "href": "/album-cover/kyle-magnvs-waiting",
+    "title": "Kyle MAGNVS - Waiting",
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1642006667152-ESQYV0SRA79MIUWFOZU0/Kyle+MAGNVS+Waiting+cover.jpg"
+   },
+   {
+    "href": "/album-cover/brotha-cj-everybody-eats",
+    "title": "Brotha CJ - Everybody Eats",
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1642006754330-0WUQEL1PI99Q59QH6248/everybody+eats+2018.jpg"
+   },
+   {
+    "href": "/album-cover/dwyr-wasted-time",
+    "title": "DWYR - Wasted Time",
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1642042354919-32WDG21CGRWG76P3VM2Y/Wasted+Time+Cover+Art.jpg"
+   }
+  ]
+ },
+ "album-cover__brotha-cj-everybody-eats": {
+  "file": "album-cover__brotha-cj-everybody-eats.html",
+  "title": "Brotha CJ - Everybody Eats — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": "http://static1.squarespace.com/static/61d3c65a4d3add4b62095ed9/61df045516f1a01b454590fe/61df08c5d5e1441fbf4fd6d5/1642042246433/everybody+eats+2018.jpg",
+  "sections": [
+   {
+    "id": "61df08c5d5e1441fbf4fd6d2",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "gallery": {
+     "kind": "gallery-section-wrapper",
+     "items": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/7815b4ee-2b84-44c0-9c67-18958145f1ef/everybody+eats+2018.jpg",
+       "alt": "everybody eats 2018.jpg",
+       "href": "https://open.spotify.com/album/74mWpF9XCUNNRjc8I4g4YQ?si=_zxM8vqXSCaGzgTDmRoIaw"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "album-cover__dwyr-wasted-time": {
+  "file": "album-cover__dwyr-wasted-time.html",
+  "title": "DWYR - Wasted Time — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": "http://static1.squarespace.com/static/61d3c65a4d3add4b62095ed9/61df045516f1a01b454590fe/61df9386b0620210422a5321/1642042364819/Wasted+Time+Cover+Art.jpg",
+  "sections": [
+   {
+    "id": "61df9386b0620210422a531c",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "gallery": {
+     "kind": "gallery-section-wrapper",
+     "items": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/69bce7cd-4323-4e6b-ab7f-c714cb5a77f8/Wasted+Time+Cover+Art.jpg",
+       "alt": "Wasted Time Cover Art.jpg",
+       "href": "https://open.spotify.com/album/4GBZGtCJdrhR81DSWGwRfM?si=QIJeUuTwS8eUKHDeNnr_-Q"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "album-cover__kyle-magnvs-waiting": {
+  "file": "album-cover__kyle-magnvs-waiting.html",
+  "title": "Kyle MAGNVS - Waiting — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": "http://static1.squarespace.com/static/61d3c65a4d3add4b62095ed9/61df045516f1a01b454590fe/61df045616f1a01b4545917a/1642006725609/Kyle+MAGNVS+Waiting+cover.jpg",
+  "sections": [
+   {
+    "id": "61df045616f1a01b45459178",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "gallery": {
+     "kind": "gallery-section-wrapper",
+     "items": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/00674132-63be-4c83-a0de-505ce3ddec2f/Kyle+MAGNVS+Waiting+cover.jpg",
+       "alt": "Kyle MAGNVS Waiting cover.jpg",
+       "href": "https://open.spotify.com/album/57UhJNgsAbaipGCL0DJlTk?si=WrTt7BQFQP2UTA90ZR5wNg"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "animation": {
+  "file": "animation.html",
+  "title": "Animation — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": null,
+  "sections": [
+   {
+    "id": "61e4d27d2cf96950e4dc1256",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h1> Animation</h1>"
+     }
+    ]
+   },
+   {
+    "id": "61e02760e551876a3b234a89",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "gallery": {
+     "kind": "gallery-section-wrapper",
+     "items": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/0899c58f-a70d-42b4-a444-bd6e90e08a77/Purple_Alpaca_Jellyfish.gif",
+       "alt": "Purple_Alpaca_Jellyfish.gif",
+       "href": "https://www.instagram.com/p/B5GSFfoq7Gb/"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/88d33380-1433-4cd2-b5ed-763723dd79d3/Purple_Alpaca_Birds.gif",
+       "alt": "Purple_Alpaca_Birds.gif",
+       "href": "https://www.instagram.com/p/BjeUHBhnKUG/"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/cae4ecc3-7d8c-4736-8dff-cda38912ec24/Purple_Alpaca_Pyramids.gif",
+       "alt": "Purple_Alpaca_Pyramids.gif",
+       "href": "https://www.instagram.com/p/B5AYwpAq13O/"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/59797fba-ba8e-4583-b72d-b13dc4c34ce9/Purple_Alpaca_Skate.gif",
+       "alt": "Purple_Alpaca_Skate.gif",
+       "href": "https://www.instagram.com/p/CGhZNfvKeKX/"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/b5cc6a86-e3c4-4051-a728-cafe07b64cda/Purple_Alpaca_Diablo.gif",
+       "alt": "Purple_Alpaca_Diablo.gif",
+       "href": "https://www.instagram.com/p/B6tJ0utDEP8/"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/cc64cc3d-f1e2-444f-886f-2d1eaaceb980/Purple_Alpaca_Fish.gif",
+       "alt": "Purple_Alpaca_Fish.gif",
+       "href": "https://www.instagram.com/p/Bka45Xsn80Y/"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/9de3b2aa-7ec8-40e8-93c3-dac258a88621/Purple_Alpaca_Fractal.gif",
+       "alt": "Purple_Alpaca_Fractal.gif",
+       "href": "https://www.instagram.com/p/BqVkuzEBFS1/"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/0d7ced65-1f04-4d83-b5b8-80c3ad8a761d/Purple_Alpaca_Walk.gif",
+       "alt": "Purple_Alpaca_Walk.gif",
+       "href": "https://www.instagram.com/p/Bq4iUDQhNBb/"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "bio": {
+  "file": "bio.html",
+  "title": "About — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": null,
+  "sections": [
+   {
+    "id": "61d3c6aca3f24d01dff6a3dd",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h1>Bio</h1>"
+     },
+     {
+      "type": "image",
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/7d88a994-85e7-48a4-8205-192863d29575/unnamed.jpg",
+      "alt": "",
+      "href": null,
+      "caption": "<p>Originally from Lima, Peru, Diego is based in Madrid, Spain where he partners with local and international artists, brands, and cultural institutions. His works have been featured in exhibition spaces and live music &amp; dance performances to cultivate a mesmerizing aesthetic. Diego is always learning new ways to captivate audiences with riveting visuals and intriguing storytelling methods.</p>"
+     }
+    ]
+   }
+  ]
+ },
+ "contact": {
+  "file": "contact.html",
+  "title": "Contact — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": null,
+  "sections": [
+   {
+    "id": "61e03c042cb3fc2df37195c2",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "image",
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/acd1e2f8-cb62-4ff9-8d45-3201d0fb2ae9/Purple_Alpaca_Birds.gif",
+      "alt": "",
+      "href": "mailto:diego@diegomotion.net?",
+      "caption": "<h2>Contact.</h2> <p><a href=\"mailto:diego@diegomotion.net?\">diego@diegomotion.net</a><b>+34 666 262 884</p><p>Currently in Spain</p><p><a href=\"https://www.instagram.com/diegomotion_/\">Instagram</a></p>"
+     },
+     {
+      "type": "form"
+     }
+    ]
+   }
+  ]
+ },
+ "illustration": {
+  "file": "illustration.html",
+  "title": "Illustration — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": null,
+  "sections": [
+   {
+    "id": "61e4d2e62383a6347d566412",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h1> Illustration</h1>"
+     }
+    ]
+   },
+   {
+    "id": "61dfa0db09c51568014a6369",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "gallery": {
+     "kind": "gallery-section-wrapper",
+     "items": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/942476e8-014f-4dc6-b168-bf165bf5dd9e/CJ.png",
+       "alt": "CJ.png",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/7ae15d8a-5d77-469d-bc01-3eb4e4d4fe3c/jess.png",
+       "alt": "jess.png",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/f9f4614d-3025-4963-8e0d-26984a39d6ed/Chris.png",
+       "alt": "Chris.png",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/7f1165a7-eace-4055-bc00-db3e28e8566a/Be+Present.png",
+       "alt": "Be Present.png",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/477b88e1-72e4-487d-8781-2784db7b0b21/Believe.jpg",
+       "alt": "Believe.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/303902d6-2dab-4423-acec-623b335088b0/Fish+Out+Of+Water.png",
+       "alt": "Fish Out Of Water.png",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/a6b5354c-8599-4dea-b1fd-50c7a9ed09a5/OnlyFans.png",
+       "alt": "OnlyFans.png",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/729a0e57-bd2e-4a91-8e06-1ba1ade12d1d/cat4.jpg",
+       "alt": "cat4.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/bbc66d72-6220-4da0-a7d5-66e73b5f2dd8/cat2.jpg",
+       "alt": "cat2.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/c14b3da6-c100-4b76-bdd6-12a4a46b257a/cat3.jpg",
+       "alt": "cat3.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/546bef63-a696-415a-93df-4c4b2a9f5386/diabladaOG.jpg",
+       "alt": "diabladaOG.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/b776fe85-bae1-458c-941c-f9a414319676/Lima.jpg",
+       "alt": "Lima.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/cc2d9ad6-35a7-4fa8-bc02-85156314ffbb/monkey2.jpg",
+       "alt": "monkey2.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/c34d81ed-bbb8-48c5-ac9b-2300a547a787/tortuga2.jpg",
+       "alt": "tortuga2.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/bad0b08d-5372-4445-9200-2df68c8d30e0/tortuga3.jpg",
+       "alt": "tortuga3.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/138d1cad-c3e9-44bc-86d7-9d0d8d89db8d/turtuga1.jpg",
+       "alt": "turtuga1.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/0b2b57e9-7b18-4ee4-babc-c9dbc0bb5479/whalie1.jpg",
+       "alt": "whalie1.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/0e38f21f-977f-4e3f-9f38-54020ca01a53/whalie2.jpg",
+       "alt": "whalie2.jpg",
+       "href": null
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "live-visuals": {
+  "file": "live-visuals.html",
+  "title": "Live Visuals — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": null,
+  "sections": [
+   {
+    "id": "6a68dfd4b73eb440445bc92f",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": []
+   }
+  ],
+  "portfolio": [
+   {
+    "href": "/live-visuals/brotha-cj-the-othahood",
+    "title": "Brotha CJ and The Othahood: Live at San Isidro",
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1642042547188-11VOIY7YU55RN8I9UN74/Purple_Alpaca_The_Othahood_Halloween.gif"
+   },
+   {
+    "href": "/live-visuals/synesthesia",
+    "title": "Synesthesia - Live at VeraArt",
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1642043164847-DMHTD42OTZXZGF63GVP7/Synesthesia_2.gif"
+   }
+  ]
+ },
+ "live-visuals__brotha-cj-the-othahood": {
+  "file": "live-visuals__brotha-cj-the-othahood.html",
+  "title": "Brotha CJ and The Othahood: Live at San Isidro — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": "http://static1.squarespace.com/static/61d3c65a4d3add4b62095ed9/61df9443bc088813413ec698/61df9444bc088813413ec711/1642043636299/Purple_Alpaca_The_Othahood_Halloween.gif",
+  "sections": [
+   {
+    "id": "61df9629316b01462cf1c29d",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "video",
+      "native": false,
+      "youtube": "U-tPQ1L9tYQ",
+      "embed_html": null
+     }
+    ]
+   }
+  ]
+ },
+ "live-visuals__synesthesia": {
+  "file": "live-visuals__synesthesia.html",
+  "title": "Synesthesia - Live at VeraArt — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": "http://static1.squarespace.com/static/61d3c65a4d3add4b62095ed9/61df9443bc088813413ec698/61df96cf64e9d97822387f51/1642043314943/Synesthesia_2.gif",
+  "sections": [
+   {
+    "id": "61df96cf64e9d97822387f4f",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "video",
+      "native": false,
+      "youtube": "_n2V2lL8vDc",
+      "embed_html": null
+     }
+    ]
+   }
+  ]
+ },
+ "logo-design": {
+  "file": "logo-design.html",
+  "title": "Logo Design — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": null,
+  "sections": [
+   {
+    "id": "6a68dfd4b73eb440445bc931",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": []
+   }
+  ],
+  "portfolio": [
+   {
+    "href": "/logo-design/adlab",
+    "title": "Ad Lab",
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1670341220988-SVDPFCYPUOYQPS1MJEPR/Adlab7.gif"
+   },
+   {
+    "href": "/logo-design/hiddengem",
+    "title": "Hidden Gem",
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1670341431564-KZPQKWOL214WJ62HYCBB/Hidden+Gem+Logo+Animation.gif"
+   },
+   {
+    "href": "/logo-design/nmlogistix",
+    "title": "N&M Logistix",
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1670342561449-3CZIU9ZF7WJLULKV3FU6/N%26M+animated+gif.gif"
+   },
+   {
+    "href": "/logo-design/danielcatalan",
+    "title": "Daniel Catalan: Writer",
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1670343488224-AI3JWBZLMR74Z7HP9KU4/color_DAN+CATALAN+WRITER+LOGO-01.jpg"
+   }
+  ]
+ },
+ "logo-design__adlab": {
+  "file": "logo-design__adlab.html",
+  "title": "Ad Lab — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": "http://static1.squarespace.com/static/61d3c65a4d3add4b62095ed9/638f6143b54b610a2d7371cc/638f6143b54b610a2d737256/1670341258174/Adlab7.gif",
+  "sections": [
+   {
+    "id": "638f6488d9ff740cc5a1af87",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h1>Ad Lab</h1><p>Different logo animations for the brand identity of a Marketing startup company in Peru.</p>"
+     },
+     {
+      "type": "video",
+      "native": true,
+      "vid": "29b4c930",
+      "dur": 6,
+      "ar": 1
+     },
+     {
+      "type": "video",
+      "native": true,
+      "vid": "c7107cec",
+      "dur": 6,
+      "ar": 1
+     }
+    ]
+   },
+   {
+    "id": "638f66150b1b1a3f58ef624c",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "gallery": {
+     "kind": "gallery-section-wrapper",
+     "items": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/90590fb0-85dc-4758-9e52-281aead5517a/Adlab6.gif",
+       "alt": "Adlab6.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/767f05ea-1783-4f1a-adc3-f01c01aff0b6/Adlab1.gif",
+       "alt": "Adlab1.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/f52c4f6f-f200-4bde-bda6-0aff3c1e17b2/Adlab5.gif",
+       "alt": "Adlab5.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/301ed3bf-484a-4872-b485-8d1cbf5435f5/Adlab2.gif",
+       "alt": "Adlab2.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/85b8ccf5-9494-4c08-8fc7-4b08f6bd3c56/Adlab3.gif",
+       "alt": "Adlab3.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/fab0a7ed-8d77-4873-891b-900f04227ba2/Adlab4.gif",
+       "alt": "Adlab4.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/00dd8c16-6071-4c3e-b153-b512caf36928/Adlab7.gif",
+       "alt": "Adlab7.gif",
+       "href": null
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "logo-design__danielcatalan": {
+  "file": "logo-design__danielcatalan.html",
+  "title": "Daniel Catalan: Writer — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": "http://static1.squarespace.com/static/61d3c65a4d3add4b62095ed9/638f6143b54b610a2d7371cc/638f6143b54b610a2d737204/1670343495924/color_DAN+CATALAN+WRITER+LOGO-01.jpg",
+  "sections": [
+   {
+    "id": "638f6143b54b610a2d7371f6",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h2>Daniel Catalan: Writer</h2><p>Logo desig for a freelance resume advisor and writer.</p>"
+     }
+    ]
+   },
+   {
+    "id": "638f6974bc93400d4a112076",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "gallery": {
+     "kind": "gallery-section-wrapper",
+     "items": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/f45b9802-5590-4bbb-a59f-0adfb0041834/black_DAN+CATALAN+WRITER+LOGO.jpg",
+       "alt": "black_DAN CATALAN WRITER LOGO.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/92be6e90-d784-468c-8f9c-b775ecc1ba1f/color_whiteDAN+CATALAN+WRITER+LOGO-01-01.jpg",
+       "alt": "color_whiteDAN CATALAN WRITER LOGO-01-01.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/98f8b1cf-7a85-4338-9b42-6a1005204da0/color_DAN+CATALAN+WRITER+LOGO-01.jpg",
+       "alt": "color_DAN CATALAN WRITER LOGO-01.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/3f221be1-2dc6-40bc-a81b-1859022cef74/white_DAN+CATALAN+WRITER+LOGO-01-01.jpg",
+       "alt": "white_DAN CATALAN WRITER LOGO-01-01.jpg",
+       "href": null
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "logo-design__hiddengem": {
+  "file": "logo-design__hiddengem.html",
+  "title": "Hidden Gem — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": "http://static1.squarespace.com/static/61d3c65a4d3add4b62095ed9/638f6143b54b610a2d7371cc/638f6143b54b610a2d737240/1670341470922/Hidden+Gem+Logo+Animation.gif",
+  "sections": [
+   {
+    "id": "638f6143b54b610a2d73723e",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "gallery": {
+     "kind": "gallery-section-wrapper",
+     "items": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/a696ed9e-05ac-41cb-9b6e-8706472da533/Hidden+Gem+Logo+Black-01.jpg",
+       "alt": "Hidden Gem Logo Black-01.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/c615f60a-204a-4869-a15a-e830fdacde8c/Hidden+Gem+Logo+White.jpg",
+       "alt": "Hidden Gem Logo White.jpg",
+       "href": null
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "logo-design__nmlogistix": {
+  "file": "logo-design__nmlogistix.html",
+  "title": "N&M Logistix — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": "http://static1.squarespace.com/static/61d3c65a4d3add4b62095ed9/638f6143b54b610a2d7371cc/638f6143b54b610a2d737223/1670342589116/N%26M+animated+gif.gif",
+  "sections": [
+   {
+    "id": "638f6143b54b610a2d737221",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "gallery": {
+     "kind": "gallery-section-wrapper",
+     "items": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/e8f85279-b5a4-49d5-a7b7-6901c99571fc/N%26M+animated+gif.gif",
+       "alt": "N&M animated gif.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/b946605b-8ff9-4ed4-9f0e-55f0442a559d/N%26M+logo+black.jpg",
+       "alt": "N&M logo black.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/54ad93fe-62be-42bb-9048-b5a67c1b20a0/N%26M+logo+color+3.jpg",
+       "alt": "N&M logo color 3.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/de7c1e91-e626-4029-bf7a-ae8b1d7c29e8/N%26M+logo+white.jpg",
+       "alt": "N&M logo white.jpg",
+       "href": null
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "musicvideo": {
+  "file": "musicvideo.html",
+  "title": "Music Video — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": null,
+  "sections": [
+   {
+    "id": "6a68dfd4b73eb440445bc92b",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": []
+   }
+  ],
+  "portfolio": [
+   {
+    "href": "/musicvideo/dwyr-wasted-time",
+    "title": "DWYR - Wasted Time",
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1641955088145-5Y8MEE0F6QPR5LW5R0RF/DWYR_wasted_time_1.gif"
+   },
+   {
+    "href": "/musicvideo/kyle-magnvs-waiting",
+    "title": "Kyle MAGNVS - Waiting",
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1641955489940-BRIBR52J84GRK5S3XRDM/Kyle_MAGNVS_Waiting_3.gif"
+   },
+   {
+    "href": "/musicvideo/drobceo-rock-my-world",
+    "title": "DrobCEO - Rock My World",
+    "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1641955570260-3R1KTEG3NIINYHN4P4RZ/Rock_my_world.gif"
+   }
+  ]
+ },
+ "musicvideo__drobceo-rock-my-world": {
+  "file": "musicvideo__drobceo-rock-my-world.html",
+  "title": "DrobCEO - Rock My World — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": "http://static1.squarespace.com/static/61d3c65a4d3add4b62095ed9/61d51d717fff354789d18663/61de406f2f6f5a10252aa39e/1641955591925/Rock_my_world.gif",
+  "sections": [
+   {
+    "id": "61de406f2f6f5a10252aa39c",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "video",
+      "native": false,
+      "youtube": "rlZ24GRsPp0",
+      "embed_html": null
+     }
+    ]
+   }
+  ]
+ },
+ "musicvideo__dwyr-wasted-time": {
+  "file": "musicvideo__dwyr-wasted-time.html",
+  "title": "DWYR - Wasted Time — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": "http://static1.squarespace.com/static/61d3c65a4d3add4b62095ed9/61d51d717fff354789d18663/61d51d717fff354789d186d7/1641955423839/DWYR_wasted_time_1.gif",
+  "sections": [
+   {
+    "id": "61d51d717fff354789d186d4",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "video",
+      "native": false,
+      "youtube": "6-LJ62_i-NE",
+      "embed_html": null
+     }
+    ]
+   }
+  ]
+ },
+ "musicvideo__kyle-magnvs-waiting": {
+  "file": "musicvideo__kyle-magnvs-waiting.html",
+  "title": "Kyle MAGNVS - Waiting — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": "http://static1.squarespace.com/static/61d3c65a4d3add4b62095ed9/61d51d717fff354789d18663/61de405fbdb5f91fed51b4c8/1641955503400/Kyle_MAGNVS_Waiting_3.gif",
+  "sections": [
+   {
+    "id": "61de405fbdb5f91fed51b4c6",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "video",
+      "native": false,
+      "youtube": "PnjjJdxDa4w",
+      "embed_html": null
+     }
+    ]
+   }
+  ]
+ },
+ "politica-de-privacidad": {
+  "file": "politica-de-privacidad.html",
+  "title": "Privacy Policy 1 — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": null,
+  "sections": [
+   {
+    "id": "61e4de6468751948b6693491",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h1>Privacy policy.</h1><p>At Purple Alpaca, accessible from www.purplealpaca.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Purple Alpaca and how we use it.</p><p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us. Our Privacy Policy was generated with the help of <a href=\"https://www.gdprprivacynotice.com/\">GDPR Privacy Policy Generator from GDPRPrivacyNotice.com</a></p><h4>General Data Protection Regulation (GDPR)</h4><p>We are a Data Controller of your information.</p><p>Purple Alpaca legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Information we collect and the specific context in which we collect the information:</p><ul><li><p>Purple Alpaca needs to perform a contract with you</p></li><li><p>You have given Purple Alpaca permission to do so</p></li><li><p>Processing your personal information is in Purple Alpaca legitimate interests</p></li><li><p>Purple Alpaca needs to comply with the law</p></li></ul><p>Purple Alpaca will retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your information to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our policies.</p><p>If you are a resident of the European Economic Area (EEA), you have certain data protection rights. If you wish to be informed what Personal Information we hold about you and if you want it to be removed from our systems, please contact us.</p><p>In certain circumstances, you have the following data protection rights:</p><ul><li><p>The right to access, update or to delete the information we have on you.</p></li><li><p>The right of rectification.</p></li><li><p>The right to object.</p></li><li><p>The right of restriction.</p></li><li><p>The right to data portability</p></li><li><p>The right to withdraw consent</p></li></ul><p>Log Files</p><p>Purple Alpaca follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</p><h4>Cookies and Web Beacons</h4><p>Like any other website, Purple Alpaca uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p><p>For more general information on cookies, please read <a href=\"https://www.generateprivacypolicy.com/#cookies\">\"Cookies\" article from the Privacy Policy Generator</a>.</p><h4>Privacy Policies</h4><p>You may consult this list to find the Privacy Policy for each of the advertising partners of Purple Alpaca.</p><p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Purple Alpaca, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p><p>Note that Purple Alpaca has no access to or control over these cookies that are used by third-party advertisers.</p><h4>Third Party Privacy Policies</h4><p>Purple Alpaca's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. </p><p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.</p><h4>Children's Information</h4><p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p><p>Purple Alpaca does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p><h4>Online Privacy Policy Only</h4><p>Our Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Purple Alpaca. This policy is not applicable to any information collected offline or via channels other than this website.</p><h4>Consent</h4><p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>"
+     }
+    ]
+   }
+  ]
+ },
+ "press": {
+  "file": "press.html",
+  "title": "Press — Diegomotion | Diego Salas",
+  "description": "",
+  "og_image": null,
+  "sections": [
+   {
+    "id": "61e03b0e04ed9100f06f0b26",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h1>Press</h1>"
+     },
+     {
+      "type": "html",
+      "html": "<p><a href=\"https://www.nakedmadrid.com/2020/01/24/madrid-artist-showcase-diego-salas/\">Naked Madrid</a></p>"
+     }
+    ]
+   }
+  ]
+ },
+ "root": {
+  "file": "root.html",
+  "title": "Diego Salas | Animation & Music Video Director",
+  "description": "Animation & music video director. I write, direct and animate sci-fi and music-driven stories end to end — concept to final color. Diegomotion by Diego Salas.",
+  "og_image": "http://static1.squarespace.com/static/61d3c65a4d3add4b62095ed9/t/68b59511ae3f9c38b7054ef9/1756730641723/Logo+sketch+transparent.png",
+  "sections": [
+   {
+    "id": "61d51f6dda5b0541d9693085",
+    "theme": "black",
+    "bg_image": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/88d33380-1433-4cd2-b5ed-763723dd79d3/Purple_Alpaca_Birds.gif",
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h2><strong>DIEGO SALAS</strong></h2><h4>Story-Driven Editing &amp; Motion Design | Campaigns, Social Ads &amp; Music Videos</h4><p><a href=\"/contact\">Book a Meeting</a></p>"
+     }
+    ]
+   },
+   {
+    "id": "61d51f6dda5b0541d9693089",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h3>About Me</h3><p>I’m a visual artist focused on animation and motion design. I mix new tools with traditional craft to create visuals that feel fresh, distinctive, and built with intention.</p><p>Over the years, I’ve worked across music, advertising, and independent projects. I’ve created projection mapped visuals, branded content, and fully animated music videos, often taking things from the first idea all the way to final delivery. I like pushing concepts past the obvious and finding the version that feels bold and clear. Sometimes that means building experimental looks in ComfyUI, sometimes it is character work in Toon Boom, and sometimes it is shaping the final polish in After Effects and DaVinci.</p><p>At the core, I care about storytelling and imagination. I love taking a simple concept and turning it into something that feels alive, something that pulls people in and makes them stop for a moment.</p><p>I’m always open to new collaborations with brands, agencies, and other creatives. If you have a project you want to bring to life, I’d love to connect.</p><p><a href=\"/bio\">Read more.</a></p>"
+     },
+     {
+      "type": "image",
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/8de8a44d-9418-4408-9c67-4867fed4f1f8/IMG_9426.jpg",
+      "alt": "",
+      "href": null
+     },
+     {
+      "type": "button",
+      "label": "Book  a Meeting",
+      "href": "/contact"
+     }
+    ]
+   },
+   {
+    "id": "654e24b72b3df92f7c469b86",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h3><strong>recommendations</strong></h3><p>Sourced from <a href=\"https://www.linkedin.com/in/diegosalastorres/\">Linkedin</a></p>"
+     }
+    ]
+   },
+   {
+    "id": "68cd5782302a6f47fa1b114a",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "list": [
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/be712a5a-d7be-470c-8fef-30e77c38f4d9/1736171993258.jpeg",
+      "alt": "",
+      "title": "",
+      "desc": "<p>Diego's work is top tier and the effort he puts into understanding the objective of the project really helped solidify the vision. With a large skillset in all types of digital art, Diego is a great choice for whatever project you are looking for. I would highly recommend and look forward to working with him on more projects in the future.</p><p> - Michael Dwyer: Producer / Songwriter at Sony / ATV</p>",
+      "href": null,
+      "button": null
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/e1bd9891-bf7c-4021-b541-4caf68d645a9/1729631191135.jpeg",
+      "alt": "",
+      "title": "",
+      "desc": "<p>Diego is a talented graphic designer, illustrator, and creative partner. He is among the first of visual artists to come to mind when my clients are in need of being referred to someone that can attend to their specific customized needs with nuance and tact in a timely manner.</p><p>-Daniel Catalan: Resume Writer</p>",
+      "href": null,
+      "button": null
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/a30ae937-69e7-4159-aaa1-e74e2bf9aab1/1675851952437.jpeg",
+      "alt": "",
+      "title": "",
+      "desc": "<p>Diego made us a great logo very quickly. He followed the idea we had in mind yet added his own creative edge to the design, which was awesome!</p><p>- Daphne Binioris: Marketing Director</p>",
+      "href": null,
+      "button": null
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/21ea8f0a-ef3f-4471-9403-51b08e6c1ada/1736957209895.jpeg",
+      "alt": "",
+      "title": "",
+      "desc": "<p>I've had the pleasure of working with Diego on various projects both for myself and in collaboration with clients. <b>Diego's attention to detail and ability to create visuals are truly something to be admired.</p><p>- Kenneth Ekow: Content Strategy / Start-up Consulting</p>",
+      "href": null,
+      "button": null
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/a350bbcd-0fe2-4f25-8d10-0a6a437f2b9e/1741382121451.jpeg",
+      "alt": "",
+      "title": "",
+      "desc": "<p>Diego helped me with some visual components that complemented music I was working on. Diego is professional and working with him was a smooth process that enabled us to reach a result that I was happy with. Recommended.</p><p>-Fergus Brady: Musician</p>",
+      "href": null,
+      "button": null
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/4be8c654-43b6-4291-929c-3e4f36125892/1750080355514.jpeg",
+      "alt": "",
+      "title": "",
+      "desc": "<p>I worked alongside Diego for his audiovisual project Synesthesia. It was a blast, and Diego is so easy-going and open-minded when it comes to developing a project. He's a great person to collaborate with and an extremely talented artist. I look forward to working together again soon!</p><p>-Meag Gardner: English Linguist &amp; UX Writer</p>",
+      "href": null,
+      "button": null
+     }
+    ]
+   },
+   {
+    "id": "6997cecae0b17e0e61fd3f8e",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h1>Demo Reel 2026</h1><p>I just put together a new demo reel that reflects what I’m doing now: AI video production, animation, and paid ad design, with a workflow that still starts and ends with craft. Sometimes I explore looks in ComfyUI. Sometimes I do character work in Toon Boom or Cinema 4D. Sometimes it is all about the final polish in After Effects and DaVinci. Whatever the pipeline, the goal is to make something bold, clear, and alive.<b><b>If you need scalable motion assets, end cards, or video adaptations across formats and markets, I’d love to help.<b><b>Watch the reel, and if it resonates, let’s talk.</p>"
+     },
+     {
+      "type": "button",
+      "label": "Book a meeting",
+      "href": "/contact"
+     },
+     {
+      "type": "video",
+      "native": true,
+      "vid": "db797044",
+      "dur": 85.5,
+      "ar": 1.7777777777777777
+     }
+    ]
+   },
+   {
+    "id": "61dcd40c74387f4d4573f105",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h3>Marketing design</h3>"
+     }
+    ]
+   },
+   {
+    "id": "6997cad22394c452d878b277",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "video",
+      "native": true,
+      "vid": "9f65bed4",
+      "dur": 20.083333,
+      "ar": 1.7777777777777777
+     },
+     {
+      "type": "video",
+      "native": true,
+      "vid": "f0e1e16b",
+      "dur": 30.041667,
+      "ar": 1.7777777777777777
+     }
+    ]
+   },
+   {
+    "id": "61dcd1cd7dac381de026d7df",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "gallery": {
+     "kind": "gallery-section-wrapper",
+     "items": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/eb0a904e-7bcf-44c7-9a68-10c10f979d05/aviva.png",
+       "alt": "aviva.png",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/7375a020-cebd-4a90-97df-19772f28b1a9/vaan.png",
+       "alt": "vaan.png",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/ec16a18a-c4e8-4352-a510-ed9cc2f1f775/Rosa+y+Rojo+Moderno+Venta+D%C3%ADa+de+la+Madre+Post+para+Facebook.png",
+       "alt": "Rosa y Rojo Moderno Venta Día de la Madre Post para Facebook.png",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/66048e16-19c7-44e4-a64b-8c9a947959b6/Eliana+Torres.gif",
+       "alt": "Eliana Torres.gif",
+       "href": null
+      }
+     ]
+    }
+   },
+   {
+    "id": "6997c3f8e1dcb23c76853e00",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "video",
+      "native": true,
+      "vid": "a86faf08",
+      "dur": 5,
+      "ar": 0.5625
+     },
+     {
+      "type": "image",
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/ed3dced0-6d5e-4e6f-9945-33cadc48de68/Historia+para+Instagram+Siempre+Caf%C3%A9+Motivaci%C3%B3n+Fotogr%C3%A1fico+Blanco.png",
+      "alt": "",
+      "href": null
+     },
+     {
+      "type": "video",
+      "native": true,
+      "vid": "ec702d77",
+      "dur": 5,
+      "ar": 0.5625
+     },
+     {
+      "type": "image",
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/45bf06f9-22ed-4f17-818e-ef7ff048f772/1726559953563.jpg",
+      "alt": "",
+      "href": null
+     }
+    ]
+   },
+   {
+    "id": "6ac3c7dd49d5414e1d0c87b8",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h2>Paid Social Ads</h2>"
+     },
+     {
+      "type": "html",
+      "html": "<p>Direct-response and UGC-style ads for social — concept, edit, and motion design. English and Spanish, cut for 9:16, 4:5 and 16:9.</p>"
+     },
+     {
+      "type": "video",
+      "native": true,
+      "vid": "3b7852c9",
+      "dur": 315.208333,
+      "ar": 0.8
+     },
+     {
+      "type": "video",
+      "native": true,
+      "vid": "d6354fa3",
+      "dur": 90.166667,
+      "ar": 0.5625
+     },
+     {
+      "type": "video",
+      "native": true,
+      "vid": "521457e3",
+      "dur": 202.041667,
+      "ar": 0.8
+     },
+     {
+      "type": "video",
+      "native": true,
+      "vid": "ba37e949",
+      "dur": 95.166667,
+      "ar": 0.5625
+     },
+     {
+      "type": "video",
+      "native": true,
+      "vid": "2f616c5b",
+      "dur": 82.291667,
+      "ar": 0.5625
+     }
+    ]
+   },
+   {
+    "id": "69987df31767f26f5879e874",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "gallery": {
+     "kind": "gallery-section-wrapper",
+     "items": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/69bce7cd-4323-4e6b-ab7f-c714cb5a77f8/Wasted+Time+Cover+Art.jpg",
+       "alt": "Wasted Time Cover Art.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1642006667152-ESQYV0SRA79MIUWFOZU0/Kyle+MAGNVS+Waiting+cover.jpg",
+       "alt": "Kyle MAGNVS Waiting cover.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/7815b4ee-2b84-44c0-9c67-18958145f1ef/everybody+eats+2018.jpg",
+       "alt": "everybody eats 2018.jpg",
+       "href": null
+      }
+     ]
+    }
+   },
+   {
+    "id": "69987e802e0a47111a05c7b5",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "gallery": {
+     "kind": "gallery-section-wrapper",
+     "items": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1641440769396-P9LF5BZ9NYT1M2YX4BZ1/Kylemagnvs_waiting.gif",
+       "alt": "Kylemagnvs_waiting.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1641955489940-BRIBR52J84GRK5S3XRDM/Kyle_MAGNVS_Waiting_3.gif",
+       "alt": "Kyle_MAGNVS_Waiting_3.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/ac240226-2322-4a9a-b9fa-f17c27cf275f/Kyle_MAGNVS_Waiting_1.gif",
+       "alt": "Kyle_MAGNVS_Waiting_1.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/2957f291-3816-4144-927d-4eacd43a4a06/DWYR_wasted_time_1.gif",
+       "alt": "DWYR_wasted_time_1.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/f4eed38e-b172-44a7-9a2e-ab18ed913fac/DWYR_wasted_time_2.gif",
+       "alt": "DWYR_wasted_time_2.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1641442361162-BXWCRA5MYQA18I1ZNSMC/DWYR_Wasted_time_1.gif",
+       "alt": "DWYR_Wasted_time_1.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/20038f1c-0768-4096-975a-3962a516aba4/Purple_Alpaca_The_Othahood_San_Isidro.gif",
+       "alt": "Purple_Alpaca_The_Othahood_San_Isidro.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/ecb3e65e-e0ed-4f7e-b1d7-ae86b68ae960/Purple_Alpaca_The_Othahood_Halloween.gif",
+       "alt": "Purple_Alpaca_The_Othahood_Halloween.gif",
+       "href": null
+      }
+     ]
+    }
+   },
+   {
+    "id": "638f6e058a6e5120ff7bdb30",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "gallery": {
+     "kind": "gallery-section-wrapper",
+     "items": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/fab0a7ed-8d77-4873-891b-900f04227ba2/Adlab4.gif",
+       "alt": "Adlab4.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/00dd8c16-6071-4c3e-b153-b512caf36928/Adlab7.gif",
+       "alt": "Adlab7.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/301ed3bf-484a-4872-b485-8d1cbf5435f5/Adlab2.gif",
+       "alt": "Adlab2.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/f52c4f6f-f200-4bde-bda6-0aff3c1e17b2/Adlab5.gif",
+       "alt": "Adlab5.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/54dd6672-96a5-48e7-b1c6-c13458b7cc3e/Adlab6.gif",
+       "alt": "Adlab6.gif",
+       "href": "/logo-design"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/767f05ea-1783-4f1a-adc3-f01c01aff0b6/Adlab1.gif",
+       "alt": "Adlab1.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/a23ed52b-1a75-43a8-a9ed-931a4edc81ef/Hidden+Gem+Logo+Black-01.jpg",
+       "alt": "Hidden Gem Logo Black-01.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1670341431564-KZPQKWOL214WJ62HYCBB/Hidden+Gem+Logo+Animation.gif",
+       "alt": "Hidden Gem Logo Animation.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/16b445f6-849a-4867-bf81-fb6e3ad217f6/Hidden+Gem+Logo+White.jpg",
+       "alt": "Hidden Gem Logo White.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/54ad93fe-62be-42bb-9048-b5a67c1b20a0/N%26M+logo+color+3.jpg",
+       "alt": "N&M logo color 3.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/74e34f82-61a6-43fc-85cf-ca55dfd7fc1f/N%26M+animated+gif.gif",
+       "alt": "N&M animated gif.gif",
+       "href": "/logo-design"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/b946605b-8ff9-4ed4-9f0e-55f0442a559d/N%26M+logo+black.jpg",
+       "alt": "N&M logo black.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/de7c1e91-e626-4029-bf7a-ae8b1d7c29e8/N%26M+logo+white.jpg",
+       "alt": "N&M logo white.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/f45b9802-5590-4bbb-a59f-0adfb0041834/black_DAN+CATALAN+WRITER+LOGO.jpg",
+       "alt": "black_DAN CATALAN WRITER LOGO.jpg",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1670343488224-AI3JWBZLMR74Z7HP9KU4/color_DAN+CATALAN+WRITER+LOGO-01.jpg",
+       "alt": "color_DAN CATALAN WRITER LOGO-01.jpg",
+       "href": null
+      }
+     ]
+    }
+   },
+   {
+    "id": "69aba0d985f84a4341673fb6",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h1>ZEALOT: My Animated Short Film</h1><p>Excited to share ZEALOT, my sci fi revenge story told as an animated music video. This was a full creative odyssey. I directed, wrote, animated, and handled post production myself, blending traditional animation with a hybrid pipeline using Cinema 4D, ComfyUI, Toon Boom, After Effects, and DaVinci.</p><p>Big shoutout to Trey Russell for trusting me with his song and giving me the creative freedom to build the story and world. If you are into 90s animation and sci fi world building, I think you will enjoy this one.</p>"
+     },
+     {
+      "type": "video",
+      "native": true,
+      "vid": "3089d4f3",
+      "dur": 357.208333,
+      "ar": 1.7777777777777777
+     }
+    ]
+   },
+   {
+    "id": "6997d1801b07f83d8f0fd339",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h1>ZEALOT: Behind The Scenes</h1><p>A sneak peek into the production process of my short film Zealot.</p>"
+     },
+     {
+      "type": "video",
+      "native": true,
+      "vid": "4df78e01",
+      "dur": 39.916667,
+      "ar": 1.7777777777777777
+     }
+    ]
+   },
+   {
+    "id": "68cd56f871011068a7e42ef5",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h3>Outstanding Projects</h3>"
+     },
+     {
+      "type": "html",
+      "html": "<p><a href=\"/musicvideo\">View more</a></p>"
+     }
+    ]
+   },
+   {
+    "id": "6997c3191b07f83d8f0d512d",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "gallery": {
+     "kind": "gallery-section-wrapper",
+     "items": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/8ba917cc-1e23-4825-b414-984acb54964a/girl+walking++gif+2.gif",
+       "alt": "Music visualizer for MRT - Holding On To What's lost",
+       "href": "https://www.youtube.com/watch?v=zNluJ7MMjkw",
+       "caption": "Music visualizer for MRT - Holding On To What's lost"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/3cf16e96-dca7-4c64-974a-aed707160df6/abstract+MR++gif+2.gif",
+       "alt": "Music visualizer for MRT - Calling Your Name",
+       "href": "https://www.youtube.com/watch?v=dnl4Un2DhLs",
+       "caption": "Music visualizer for MRT - Calling Your Name"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/21f7d9aa-d60a-4bd6-96f8-b441530264d4/girl+flying++gif+2.gif",
+       "alt": "Music visualizer for MRT - Find Yourself Again",
+       "href": "https://www.youtube.com/watch?v=H_cMphs0b1M",
+       "caption": "Music visualizer for MRT - Find Yourself Again"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1166bee5-f092-42bd-90fd-754a49029465/colombia.gif",
+       "alt": "Map Animations for PBS docuseries",
+       "href": "https://www.instagram.com/p/CylvGNGgOXD/?igshid=MzRlODBiNWFlZA%3D%3D&utm_source=ig_web_copy_link",
+       "caption": "Map Animations for PBS docuseries"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/7d7b73db-24b3-4939-abb6-2c64bcd5741b/flowers+comp+gif.gif",
+       "alt": "AI nature series",
+       "href": "https://www.instagram.com/p/DNitn7GKg1r/",
+       "caption": "AI nature series"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/49599904-89c9-4ada-93de-448d905986d9/Kyle_MAGNVS_Waiting_2.gif",
+       "alt": "Kyle MAGNVS - Waiting music video",
+       "href": "https://www.youtube.com/watch?v=PnjjJdxDa4w",
+       "caption": "Kyle MAGNVS - Waiting music video"
+      }
+     ]
+    }
+   },
+   {
+    "id": "6997d44d4076803b9de8f2d6",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h3>AI Art</h3>"
+     },
+     {
+      "type": "html",
+      "html": "<p><a href=\"https://www.instagram.com/diegomotion_/\">View more</a></p>"
+     }
+    ]
+   },
+   {
+    "id": "654e257ec4a35f14e5a5d971",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "gallery": {
+     "kind": "gallery-section-wrapper",
+     "items": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/18e73764-a79b-4e32-8d14-1fa13822e723/cat.gif",
+       "alt": "cat.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/3150ab05-747b-4ad5-93bc-7f8aa8e99c19/trippy2.gif",
+       "alt": "trippy2.gif",
+       "href": null
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/4fda87bb-ccf6-43ea-8cf1-4249f903ac0d/trippy1.gif",
+       "alt": "trippy1.gif",
+       "href": null
+      }
+     ]
+    }
+   },
+   {
+    "id": "61e175805470ee2e980c8fa0",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h3>Music Video</h3>"
+     },
+     {
+      "type": "html",
+      "html": "<p><a href=\"/musicvideo\">View more</a></p>"
+     }
+    ]
+   },
+   {
+    "id": "61dcfd07b27ec95bd3c097e8",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "video",
+      "native": false,
+      "youtube": "6-LJ62_i-NE",
+      "embed_html": null
+     },
+     {
+      "type": "video",
+      "native": false,
+      "youtube": "PnjjJdxDa4w",
+      "embed_html": null
+     },
+     {
+      "type": "video",
+      "native": false,
+      "youtube": "rlZ24GRsPp0",
+      "embed_html": null
+     }
+    ]
+   },
+   {
+    "id": "61dcd3d6b27ec95bd3bcb0a2",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h3> Live Visuals</h3>"
+     },
+     {
+      "type": "html",
+      "html": "<p><a href=\"/live-visuals\">View more</a></p>"
+     }
+    ]
+   },
+   {
+    "id": "61dcd41ba6284330cc849108",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "gallery": {
+     "kind": "gallery-section-wrapper",
+     "items": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/ecb3e65e-e0ed-4f7e-b1d7-ae86b68ae960/Purple_Alpaca_The_Othahood_Halloween.gif",
+       "alt": "Purple_Alpaca_The_Othahood_Halloween.gif",
+       "href": "https://www.instagram.com/p/CVlqNaujPzz/"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/a7b62e87-3bc8-4f75-8c50-a59c2cbc6dfb/Synesthesia_2.gif",
+       "alt": "Synesthesia_2.gif",
+       "href": "https://www.youtube.com/watch?v=_n2V2lL8vDc"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/20038f1c-0768-4096-975a-3962a516aba4/Purple_Alpaca_The_Othahood_San_Isidro.gif",
+       "alt": "Purple_Alpaca_The_Othahood_San_Isidro.gif",
+       "href": "https://www.youtube.com/watch?v=U-tPQ1L9tYQ"
+      }
+     ]
+    }
+   },
+   {
+    "id": "61e175b733d45e248d4db7dc",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<h3>Personal</h3>"
+     },
+     {
+      "type": "html",
+      "html": "<p><a href=\"/animation\">View more</a></p>"
+     }
+    ]
+   },
+   {
+    "id": "61dcd3db8db98177a2f3f484",
+    "theme": "black",
+    "bg_image": null,
+    "bg_video": null,
+    "blocks": [],
+    "gallery": {
+     "kind": "gallery-section-wrapper",
+     "items": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/e39d9060-6e86-4b5e-8064-645a3779bfee/Purple_Alpaca_Skate.gif",
+       "alt": "Purple_Alpaca_Skate.gif",
+       "href": "https://www.instagram.com/p/CGhZNfvKeKX/"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1e03c636-33c1-46a3-917b-a22f3205bd98/Purple_Alpaca_Jellyfish.gif",
+       "alt": "Purple_Alpaca_Jellyfish.gif",
+       "href": "https://www.instagram.com/p/B5GSFfoq7Gb/"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/8f427939-f434-479f-ae76-43a6c9382d62/Purple_Alpaca_Pyramids.gif",
+       "alt": "Purple_Alpaca_Pyramids.gif",
+       "href": "https://www.instagram.com/p/B5AYwpAq13O/"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

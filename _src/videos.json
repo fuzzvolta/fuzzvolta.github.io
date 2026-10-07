@@ -1,0 +1,115 @@
+{
+ "demo-reel-2026": {
+  "dur": 85.5,
+  "ar": 1.7778,
+  "vertical": false,
+  "src": "/assets/video/demo-reel-2026-1080.mp4",
+  "poster": "/assets/poster/demo-reel-2026.webp",
+  "remote": false,
+  "src720": "/assets/video/demo-reel-2026-720.mp4"
+ },
+ "marketing-01": {
+  "dur": 20.083333,
+  "ar": 1.7778,
+  "vertical": false,
+  "src": "/assets/video/marketing-01.mp4",
+  "poster": "/assets/poster/marketing-01.webp",
+  "remote": false
+ },
+ "marketing-02": {
+  "dur": 30.041667,
+  "ar": 1.7778,
+  "vertical": false,
+  "src": "/assets/video/marketing-02.mp4",
+  "poster": "/assets/poster/marketing-02.webp",
+  "remote": false
+ },
+ "loop-01": {
+  "dur": 5,
+  "ar": 0.5625,
+  "vertical": true,
+  "src": "/assets/video/loop-01.mp4",
+  "poster": "/assets/poster/loop-01.webp",
+  "remote": false
+ },
+ "loop-02": {
+  "dur": 5,
+  "ar": 0.5625,
+  "vertical": true,
+  "src": "/assets/video/loop-02.mp4",
+  "poster": "/assets/poster/loop-02.webp",
+  "remote": false
+ },
+ "paid-social-01": {
+  "dur": 315.208333,
+  "ar": 0.8,
+  "vertical": true,
+  "src": "/assets/video/paid-social-01.mp4",
+  "poster": "/assets/poster/paid-social-01.webp",
+  "remote": true
+ },
+ "paid-social-02": {
+  "dur": 90.166667,
+  "ar": 0.5625,
+  "vertical": true,
+  "src": "/assets/video/paid-social-02.mp4",
+  "poster": "/assets/poster/paid-social-02.webp",
+  "remote": true
+ },
+ "paid-social-03": {
+  "dur": 202.041667,
+  "ar": 0.8,
+  "vertical": true,
+  "src": "/assets/video/paid-social-03.mp4",
+  "poster": "/assets/poster/paid-social-03.webp",
+  "remote": true
+ },
+ "paid-social-04": {
+  "dur": 95.166667,
+  "ar": 0.5625,
+  "vertical": true,
+  "src": "/assets/video/paid-social-04.mp4",
+  "poster": "/assets/poster/paid-social-04.webp",
+  "remote": true
+ },
+ "paid-social-05": {
+  "dur": 82.291667,
+  "ar": 0.5625,
+  "vertical": true,
+  "src": "/assets/video/paid-social-05.mp4",
+  "poster": "/assets/poster/paid-social-05.webp",
+  "remote": true
+ },
+ "zealot": {
+  "dur": 357.208333,
+  "ar": 1.7778,
+  "vertical": false,
+  "src": "/assets/video/zealot.mp4",
+  "poster": "/assets/poster/zealot.webp",
+  "remote": true
+ },
+ "zealot-bts": {
+  "dur": 39.916667,
+  "ar": 1.7778,
+  "vertical": false,
+  "src": "/assets/video/zealot-bts.mp4",
+  "poster": "/assets/poster/zealot-bts.webp",
+  "remote": false
+ },
+ "adlab-01": {
+  "dur": 6,
+  "ar": 1,
+  "vertical": false,
+  "src": "/assets/video/adlab-01.mp4",
+  "poster": "/assets/poster/adlab-01.webp",
+  "remote": false
+ },
+ "adlab-02": {
+  "dur": 6,
+  "ar": 1,
+  "vertical": false,
+  "src": "/assets/video/adlab-02.mp4",
+  "poster": "/assets/poster/adlab-02.webp",
+  "remote": false
+ }
+}

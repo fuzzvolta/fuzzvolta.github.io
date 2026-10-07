@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description or site.default_description }}">
+<link rel="canonical" href="{{ canonical }}">
+{% set og = (og_image|asset) %}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description or site.default_description }}">
+<meta property="og:url" content="{{ canonical }}">
+{% if og %}<meta property="og:image" content="{{ site.url }}{{ og.poster if og.type == 'loop' else og.src }}">{% endif %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#000000">
+{% set fav = site.favicon|asset %}
+{% if fav %}<link rel="icon" href="{{ fav.sizes['800'] or fav.src }}" type="image/webp">{% endif %}
+<link rel="preload" href="/assets/fonts/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Diego Salas","alternateName":"Diegomotion","url":"{{ site.url }}","email":"mailto:{{ site.email }}","jobTitle":"Video editor & motion designer","sameAs":["{{ site.social.linkedin }}","{{ site.social.instagram }}","{{ site.social.tiktok }}"]}
+</script>
+{% block head %}{% endblock %}
+</head>
+<body class="{% block bodyclass %}{% endblock %}">
+<a class="skip" href="#main">Skip to content</a>
+<header class="hdr">
+  <a class="hdr-logo" href="/" aria-label="Diegomotion home">
+    {% set lg = site.logo|asset %}
+    <img src="{{ lg.sizes['800'] }}" width="{{ (lg.w * 800 / lg.w)|int if lg.w < 800 else 800 }}" height="{{ (lg.h * (800 if lg.w > 800 else lg.w) / lg.w)|int }}" alt="Diegomotion">
+  </a>
+  <button class="hdr-menu" aria-expanded="false" aria-controls="nav" data-menu>Menu</button>
+  <nav class="hdr-nav" id="nav">
+    <ul class="nav-list">
+      {% for n in nav %}
+      {% set active = (path == n.href) or (n.children and n.children|map(attribute='href')|select('equalto', path)|list) %}
+      <li class="nav-item{% if n.children %} has-sub{% endif %}">
+        {% if n.children %}
+        <button class="nav-link" aria-expanded="false" data-sub{% if active %} aria-current="true"{% endif %}>{{ n.label }}</button>
+        <ul class="nav-sub">
+          {% for c in n.children %}<li><a href="{{ c.href }}"{% if path == c.href %} aria-current="page"{% endif %}>{{ c.label }}</a></li>{% endfor %}
+        </ul>
+        {% else %}
+        <a class="nav-link" href="{{ n.href }}"{% if active %} aria-current="page"{% endif %}>{{ n.label }}</a>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    <ul class="nav-social">
+      <li><a href="{{ site.social.linkedin }}" rel="me noopener" target="_blank">LinkedIn</a></li>
+      <li><a href="{{ site.social.instagram }}" rel="me noopener" target="_blank">Instagram</a></li>
+      <li><a href="{{ site.social.tiktok }}" rel="me noopener" target="_blank">TikTok</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+{% block content %}{% endblock %}
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr-ig">
+      <div class="sec-head">
+        <h2 class="h3">Follow me on Instagram</h2>
+        <a class="more" href="{{ site.social.instagram }}" rel="me noopener" target="_blank">@diegomotion_</a>
+      </div>
+      <ul class="ig-grid">
+        {% for u in footer.instagram %}{% set a = u|asset %}{% if a %}
+        <li><a href="{{ site.social.instagram }}" rel="noopener" target="_blank"><img loading="lazy" src="{{ a.sizes['800'] or a.src }}" width="{{ a.w }}" height="{{ a.h }}" alt="Instagram post by @diegomotion_"></a></li>
+        {% endif %}{% endfor %}
+      </ul>
+    </div>
+    <div class="ftr-bar">
+      <p class="ftr-brand"><strong>Diegomotion</strong> · Diego Salas · video editor &amp; motion designer</p>
+      <p class="ftr-contact"><a href="mailto:{{ site.email }}">{{ site.email }}</a><br>{{ site.phones[0] }} · {{ site.phones[1] }}</p>
+      <p class="ftr-legal">© {{ now_year }} Diego Salas · <a href="/politica-de-privacidad/">Privacy policy</a></p>
+    </div>
+  </div>
+</footer>
+<script src="/assets/js/site.js" defer></script>
+<!-- analytics: Cloudflare Web Analytics snippet goes here after cutover -->
+</body>
+</html>

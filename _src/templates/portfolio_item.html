@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% from "_macros.html" import blocks %}
+{% block content %}
+<article class="sec wrap page">
+  <p class="crumb"><a href="{{ coll.path }}">{{ coll.heading }}</a></p>
+  <h1 class="h1">{{ item.title }}</h1>
+  {% for s in item.sections %}<div class="section">{{ blocks(s) }}</div>{% endfor %}
+  <nav class="pager" aria-label="More in {{ coll.heading }}">
+    {% if prev_item %}<a rel="prev" href="{{ prev_item.path }}"><span class="muted">Previous</span><br>{{ prev_item.title }}</a>{% else %}<span></span>{% endif %}
+    {% if next_item %}<a rel="next" class="right" href="{{ next_item.path }}"><span class="muted">Next</span><br>{{ next_item.title }}</a>{% endif %}
+  </nav>
+</article>
+{% endblock %}

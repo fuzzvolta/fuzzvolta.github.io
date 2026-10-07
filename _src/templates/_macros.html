@@ -1,0 +1,60 @@
+{# Shared rendering macros #}
+
+{% macro picture(url, alt='', sizes='(min-width: 1000px) 33vw, 100vw', lazy=true, cls='') -%}
+{% set a = url|asset %}
+{% if a %}
+  {% if a.type == 'loop' %}
+  <video class="loop {{ cls }}" autoplay muted loop playsinline preload="metadata" poster="{{ a.poster }}" width="{{ a.w }}" height="{{ a.h }}" aria-label="{{ alt }}">
+    <source src="{{ a.mp4 }}" type="video/mp4">
+  </video>
+  {% else %}
+  <img class="{{ cls }}" {% if lazy %}loading="lazy" decoding="async"{% endif %} src="{{ a.src }}"
+    {% if a.sizes['800'] and a.sizes['1600'] %}srcset="{{ a.sizes['800'] }} 800w, {{ a.sizes['1600'] }} 1600w" sizes="{{ sizes }}"{% endif %}
+    width="{{ a.w }}" height="{{ a.h }}" alt="{{ alt }}">
+  {% endif %}
+{% endif %}
+{%- endmacro %}
+
+{% macro gallery(items, cols=3, sizes=None) -%}
+{% set sz = sizes or ('(min-width: 1000px) ' ~ (100 // cols) ~ 'vw, (min-width: 600px) 50vw, 100vw') %}
+<ul class="grid cols-{{ cols }}">
+  {% for it in items %}
+  <li class="cell">
+    {% if it.href %}<a href="{{ it.href }}"{% if it.href.startswith('http') %} target="_blank" rel="noopener"{% endif %}>{% endif %}
+    {{ picture(it.src, it.alt or it.caption or '', sz) }}
+    {% if it.caption %}<span class="cap">{{ it.caption }}</span>{% endif %}
+    {% if it.href %}</a>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{%- endmacro %}
+
+{% macro player(v, label='') -%}
+{% set src = (r2 ~ '/' ~ v.key ~ '.mp4') if (v.remote and r2) else v.src %}
+<figure class="player{% if v.vertical %} vertical{% endif %}" style="--ar:{{ v.ar }}">
+  <video controls preload="none" playsinline poster="{{ v.poster }}" aria-label="{{ label }}">
+    <source src="{{ src }}" type="video/mp4">
+  </video>
+</figure>
+{%- endmacro %}
+
+{% macro youtube(id, title='') -%}
+<figure class="yt" data-yt="{{ id }}">
+  <button class="yt-play" type="button" aria-label="Play {{ title or 'video' }}">
+    <img loading="lazy" src="https://i.ytimg.com/vi/{{ id }}/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/{{ id }}/hqdefault.jpg'" alt="" width="1280" height="720">
+    <span class="yt-btn" aria-hidden="true"></span>
+  </button>
+</figure>
+{%- endmacro %}
+
+{% macro blocks(section) -%}
+{% for b in section.blocks %}
+  {% if b.type == 'html' %}<div class="prose">{{ b.html|clean|safe }}</div>
+  {% elif b.type == 'image' %}<figure class="img">{% if b.href %}<a href="{{ b.href }}">{% endif %}{{ picture(b.src, b.alt, '(min-width: 1000px) 60vw, 100vw') }}{% if b.href %}</a>{% endif %}{% if b.caption %}<figcaption>{{ b.caption|clean|safe }}</figcaption>{% endif %}</figure>
+  {% elif b.type == 'button' %}<p><a class="btn" href="{{ b.href|replace('/contact','/contact/') }}">{{ b.label|replace('  ',' ') }}</a></p>
+  {% elif b.type == 'video' and b.native %}{{ player(video(vidname[b.vid]), '') }}
+  {% elif b.type == 'video' and b.youtube %}{{ youtube(b.youtube) }}
+  {% endif %}
+{% endfor %}
+{% if section.gallery and section.gallery['items'] %}{{ gallery(section.gallery['items'], 3) }}{% endif %}
+{%- endmacro %}

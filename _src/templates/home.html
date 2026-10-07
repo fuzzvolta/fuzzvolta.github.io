@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+{% from "_macros.html" import picture, gallery, player, youtube %}
+{% block bodyclass %}home{% endblock %}
+{% block content %}
+{% set h = page.hero %}
+<section class="hero">
+  {{ picture(h.bg, '', '100vw', lazy=false, cls='hero-bg') }}
+  <div class="hero-text wrap">
+    <h1 class="display">{{ h.name }}</h1>
+    <p class="hero-tag">{{ h.tagline }}</p>
+    <a class="btn" href="{{ h.cta.href }}">{{ h.cta.label }}</a>
+  </div>
+</section>
+
+<section class="sec about wrap" id="about">
+  <div class="about-grid">
+    <div>
+      <h2 class="h2">{{ page.about.heading }}</h2>
+      <div class="prose">{{ page.about.html|clean|safe }}</div>
+    </div>
+    <figure class="about-photo">{{ picture(page.about.photo, 'Diego Salas', '(min-width: 1000px) 40vw, 100vw') }}</figure>
+  </div>
+</section>
+
+<section class="sec wrap" id="recommendations">
+  <div class="sec-head">
+    <h2 class="h2">{{ page.testimonials.heading }}</h2>
+    <span class="more muted">{{ page.testimonials.sub }}</span>
+  </div>
+  <ul class="quotes">
+    {% for t in page.testimonials['items'] %}
+    <li class="quote">
+      <blockquote><p>{{ t.quote }}</p></blockquote>
+      <p class="who">{{ t.who|safe }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="sec wrap" id="reel">
+  <div class="reel-grid">
+    <div>
+      <h2 class="h2">{{ page.reel.heading }}</h2>
+      <div class="prose">{{ page.reel.html|clean|safe }}</div>
+      <p><a class="btn" href="{{ page.reel.cta.href }}">{{ page.reel.cta.label }}</a></p>
+    </div>
+  </div>
+  {{ player(video(page.reel.video), 'Demo reel 2026') }}
+</section>
+
+<section class="sec wrap" id="marketing">
+  <h2 class="h2">{{ page.marketing.heading }}</h2>
+  <div class="two">
+    {% for k in page.marketing.videos %}{{ player(video(k), 'Marketing design video') }}{% endfor %}
+  </div>
+  <div class="grid cols-4 tall mt">
+    {% for k in page.marketing.loops %}<div class="cell">{{ player(video(k), 'Vertical ad loop') }}</div>{% endfor %}
+    {% for u in page.marketing.loop_images %}<div class="cell">{{ picture(u, 'Marketing design', '(min-width: 1000px) 25vw, 50vw') }}</div>{% endfor %}
+  </div>
+  <div class="mt">{{ gallery(page.marketing.gallery, 4) }}</div>
+</section>
+
+<section class="sec wrap" id="paid-social">
+  <div class="sec-head">
+    <h2 class="h2">{{ page.paid_social.heading }}</h2>
+  </div>
+  <p class="lede">{{ page.paid_social.text }}</p>
+  <div class="verticals">
+    {% for k in page.paid_social.videos %}{{ player(video(k), 'Paid social ad reel') }}{% endfor %}
+  </div>
+</section>
+
+<section class="sec wrap" id="covers">
+  {{ gallery(page.covers, 3) }}
+  <div class="mt">{{ gallery(page.stills, 4) }}</div>
+  <div class="mt">{{ gallery(page.logos, 5) }}</div>
+</section>
+
+<section class="sec wrap" id="zealot">
+  <div class="reel-grid">
+    <div>
+      <h2 class="h2">{{ page.zealot.heading }}</h2>
+      <div class="prose">{{ page.zealot.html|clean|safe }}</div>
+    </div>
+  </div>
+  {{ player(video(page.zealot.video), 'ZEALOT animated short film') }}
+  <div class="bts">
+    <div class="reel-grid">
+      <div>
+        <h3 class="h3">{{ page.zealot_bts.heading }}</h3>
+        <div class="prose">{{ page.zealot_bts.html|clean|safe }}</div>
+      </div>
+    </div>
+    {{ player(video(page.zealot_bts.video), 'ZEALOT behind the scenes') }}
+  </div>
+</section>
+
+<section class="sec wrap" id="projects">
+  <h2 class="h2">{{ page.projects.heading }}</h2>
+  {{ gallery(page.projects['items'], 3) }}
+</section>
+
+{% for row in page.rows %}
+<section class="sec wrap row" id="{{ row.heading|lower|replace(' ', '-') }}">
+  <div class="sec-head">
+    <h2 class="h2">{{ row.heading }}</h2>
+    <a class="more" href="{{ row.href }}">View more</a>
+  </div>
+  {{ gallery(row['items'], 3) }}
+</section>
+{% endfor %}
+{% endblock %}

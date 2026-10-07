@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% from "_macros.html" import picture %}
+{% block content %}
+<section class="sec wrap">
+  <h1 class="h1">{{ coll.heading }}</h1>
+  <ul class="grid cols-3 portfolio">
+    {% for it in items %}
+    <li class="cell">
+      <a href="{{ it.path }}">
+        {{ picture(it.thumb, it.title, '(min-width: 1000px) 33vw, 100vw') }}
+        <span class="ptitle">{{ it.title }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}

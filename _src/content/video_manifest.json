@@ -1,0 +1,98 @@
+{
+ "demo-reel-2026": {
+  "id": "db797044",
+  "dur": 85.5,
+  "ar": 1.7777777777777777,
+  "variants": "1920:1080,640:360",
+  "hls": "https://video.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/db797044-b04e-4e2e-9e34-880be1ce8f2e/playlist.m3u8"
+ },
+ "marketing-01": {
+  "id": "9f65bed4",
+  "dur": 20.083333,
+  "ar": 1.7777777777777777,
+  "variants": "1920:1080,640:360",
+  "hls": "https://video.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/9f65bed4-4432-4cc4-a6bd-99869e1ec684/playlist.m3u8"
+ },
+ "marketing-02": {
+  "id": "f0e1e16b",
+  "dur": 30.041667,
+  "ar": 1.7777777777777777,
+  "variants": "1920:1080,640:360",
+  "hls": "https://video.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/f0e1e16b-61e1-4db0-a5d3-0b4293918a6f/playlist.m3u8"
+ },
+ "loop-01": {
+  "id": "a86faf08",
+  "dur": 5,
+  "ar": 0.5625,
+  "variants": "1080:1920,360:640",
+  "hls": "https://video.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/a86faf08-beb8-4cc3-920e-bbe0de5e98ce/playlist.m3u8"
+ },
+ "loop-02": {
+  "id": "ec702d77",
+  "dur": 5,
+  "ar": 0.5625,
+  "variants": "1080:1920,360:640",
+  "hls": "https://video.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/ec702d77-8e72-4411-985f-80514cd9fb02/playlist.m3u8"
+ },
+ "paid-social-01": {
+  "id": "3b7852c9",
+  "dur": 315.208333,
+  "ar": 0.8,
+  "variants": "1080:1350,360:450",
+  "hls": "https://video.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/3b7852c9-3519-4f10-9bdb-6d86313be687/playlist.m3u8"
+ },
+ "paid-social-02": {
+  "id": "d6354fa3",
+  "dur": 90.166667,
+  "ar": 0.5625,
+  "variants": "1080:1920,360:640",
+  "hls": "https://video.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/d6354fa3-f320-4fe9-ad68-1ae99acdb5e5/playlist.m3u8"
+ },
+ "paid-social-03": {
+  "id": "521457e3",
+  "dur": 202.041667,
+  "ar": 0.8,
+  "variants": "1080:1350,360:450",
+  "hls": "https://video.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/521457e3-4b47-44fa-9cb8-3025ca9973cf/playlist.m3u8"
+ },
+ "paid-social-04": {
+  "id": "ba37e949",
+  "dur": 95.166667,
+  "ar": 0.5625,
+  "variants": "1080:1920,360:640",
+  "hls": "https://video.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/ba37e949-9883-45a3-9fdf-9405edc1c0e9/playlist.m3u8"
+ },
+ "paid-social-05": {
+  "id": "2f616c5b",
+  "dur": 82.291667,
+  "ar": 0.5625,
+  "variants": "1080:1920,360:640",
+  "hls": "https://video.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/2f616c5b-2397-408e-bac4-c9dd80d21d0a/playlist.m3u8"
+ },
+ "zealot": {
+  "id": "3089d4f3",
+  "dur": 357.208333,
+  "ar": 1.7777777777777777,
+  "variants": "1920:1080,640:360",
+  "hls": "https://video.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/3089d4f3-2d51-4ee8-b78a-5940645c8934/playlist.m3u8"
+ },
+ "zealot-bts": {
+  "id": "4df78e01",
+  "dur": 39.916667,
+  "ar": 1.7777777777777777,
+  "variants": "1920:1080,640:360",
+  "hls": "https://video.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/4df78e01-496e-4cc2-981f-d7adaf5a2118/playlist.m3u8"
+ },
+ "adlab-01": {
+  "id": "29b4c930",
+  "dur": 6,
+  "ar": 1,
+  "hls": "https://video.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/29b4c930-80d9-46ca-8ad0-9911a7f3cc97/{variant}"
+ },
+ "adlab-02": {
+  "id": "c7107cec",
+  "dur": 6,
+  "ar": 1,
+  "hls": "https://video.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/c7107cec-21b4-4d12-af28-9461d461db02/{variant}"
+ }
+}

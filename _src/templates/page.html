@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% from "_macros.html" import blocks, picture %}
+{% block content %}
+<article class="sec wrap page">
+  {% if page.kind == 'contact' %}
+  <h1 class="h1">Contact</h1>
+  <div class="contact">
+    <div class="prose">
+      <p class="lede">Have a campaign, a music video or a motion project in mind? Write me and I'll get back within a day.</p>
+      <p><a class="btn" href="mailto:{{ site.email }}?subject=Project%20inquiry">Email {{ site.email }}</a></p>
+      <p class="muted">{{ site.phones[0] }} (Spain) · {{ site.phones[1] }} (Peru)<br>
+      <a href="{{ site.social.linkedin }}" rel="me noopener" target="_blank">LinkedIn</a> · <a href="{{ site.social.instagram }}" rel="me noopener" target="_blank">Instagram</a> · <a href="{{ site.social.tiktok }}" rel="me noopener" target="_blank">TikTok</a></p>
+    </div>
+    {% for s in sections %}{% for b in s.blocks if b.type == 'image' %}<figure class="img">{{ picture(b.src, '', '(min-width: 1000px) 40vw, 100vw') }}</figure>{% endfor %}{% endfor %}
+  </div>
+  {% else %}
+  {% for s in sections %}
+  <div class="section">{{ blocks(s) }}</div>
+  {% endfor %}
+  {% endif %}
+</article>
+{% endblock %}
