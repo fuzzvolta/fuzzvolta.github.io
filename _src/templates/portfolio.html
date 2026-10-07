@@ -6,7 +6,7 @@
   <ul class="grid cols-3 portfolio">
     {% for it in items %}
     <li class="cell">
-      <a href="{{ it.path }}">
+      <a href="{{ it.path }}" aria-label="{{ it.title }}">
         {{ picture(it.thumb, it.title, '(min-width: 1000px) 33vw, 100vw') }}
         <span class="ptitle">{{ it.title }}</span>
       </a>

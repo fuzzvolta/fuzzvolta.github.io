@@ -20,7 +20,7 @@
 <ul class="grid cols-{{ cols }}">
   {% for it in items %}
   <li class="cell">
-    {% if it.href %}<a href="{{ it.href }}"{% if it.href.startswith('http') %} target="_blank" rel="noopener"{% endif %}>{% endif %}
+    {% if it.href %}<a href="{{ it.href }}"{% if it.href.startswith('http') %} target="_blank" rel="noopener"{% endif %} aria-label="{{ it.caption or it.alt or ('Open on Instagram' if 'instagram' in it.href else ('Watch on YouTube' if 'youtu' in it.href else 'View project')) }}">{% endif %}
     {{ picture(it.src, it.alt or it.caption or '', sz) }}
     {% if it.caption %}<span class="cap">{{ it.caption }}</span>{% endif %}
     {% if it.href %}</a>{% endif %}
