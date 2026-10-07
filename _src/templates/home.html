@@ -32,7 +32,10 @@
     {% for t in page.testimonials['items'] %}
     <li class="quote">
       <blockquote><p>{{ t.quote }}</p></blockquote>
-      <p class="who">{{ t.who|safe }}</p>
+      <div class="who">
+        {% set av = t.img|asset %}{% if av %}<img loading="lazy" src="{{ av.sizes['800'] or av.src }}" width="48" height="48" alt="">{% endif %}
+        <p>{{ t.who|safe }}</p>
+      </div>
     </li>
     {% endfor %}
   </ul>

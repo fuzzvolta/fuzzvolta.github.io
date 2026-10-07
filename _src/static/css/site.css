@@ -104,7 +104,9 @@ a:hover{text-decoration-color:var(--accent)}
 .quote{scroll-snap-align:start;border-top:1px solid var(--line);padding-top:18px;display:flex;flex-direction:column;gap:14px}
 .quote blockquote{margin:0;font-size:16px;line-height:1.5}
 .quote p{margin:0}
-.quote .who{color:var(--mute);font-size:14px;font-weight:500;margin-top:auto}
+.quote .who{display:flex;align-items:center;gap:12px;color:var(--mute);font-size:14px;font-weight:500;margin-top:auto}
+.quote .who img{width:48px;height:48px;border-radius:50%;object-fit:cover;flex:none}
+.quote .who p{margin:0}
 
 /* media grids */
 .grid.tall .cell{aspect-ratio:9/16;overflow:hidden}
