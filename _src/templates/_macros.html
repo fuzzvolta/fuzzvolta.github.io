@@ -4,7 +4,8 @@
 {% set a = url|asset %}
 {% if a %}
   {% if a.type == 'loop' %}
-  <video class="loop {{ cls }}" autoplay muted loop playsinline preload="metadata" poster="{{ a.poster }}" width="{{ a.w }}" height="{{ a.h }}" aria-label="{{ alt }}">
+  {% set eager = (cls == 'hero-bg') %}
+  <video class="loop {{ cls }}" {% if eager %}autoplay preload="auto"{% else %}preload="none"{% endif %} muted loop playsinline poster="{{ a.poster }}" width="{{ a.w }}" height="{{ a.h }}" aria-label="{{ alt }}">
     <source src="{{ a.mp4 }}" type="video/mp4">
   </video>
   {% else %}

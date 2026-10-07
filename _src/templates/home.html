@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% from "_macros.html" import picture, gallery, player, youtube %}
 {% block bodyclass %}home{% endblock %}
+{% block preload %}{% set hb = page.hero.bg|asset %}{% if hb %}<link rel="preload" as="image" href="{{ hb.poster if hb.type == 'loop' else hb.src }}" fetchpriority="high">{% endif %}{% endblock %}
 {% block content %}
 {% set h = page.hero %}
 <section class="hero">

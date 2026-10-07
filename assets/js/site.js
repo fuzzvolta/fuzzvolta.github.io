@@ -33,7 +33,7 @@
     });
   });
 
-  // Loops: only play while on screen; respect reduced motion
+  // Loops (converted GIFs): nothing downloads until the loop is near the viewport; pause when it leaves.
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var loops = document.querySelectorAll('video.loop');
   if (reduce) { loops.forEach(function (v) { v.removeAttribute('autoplay'); v.pause(); }); }
@@ -41,11 +41,12 @@
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         var v = en.target;
-        if (en.isIntersecting) { var p = v.play(); if (p && p.catch) p.catch(function () {}); } else v.pause();
+        if (en.isIntersecting) { if (v.preload === 'none') v.preload = 'auto'; var p = v.play(); if (p && p.catch) p.catch(function () {}); }
+        else if (!v.paused) v.pause();
       });
-    }, { rootMargin: '200px 0px' });
+    }, { rootMargin: '300px 0px' });
     loops.forEach(function (v) { io.observe(v); });
-  }
+  } else { loops.forEach(function (v) { v.setAttribute('autoplay', ''); v.preload = 'auto'; }); }
 
   // Players: pause others when one starts
   var players = document.querySelectorAll('.player video');
