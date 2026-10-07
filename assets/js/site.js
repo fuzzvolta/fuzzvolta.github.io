@@ -41,12 +41,12 @@
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         var v = en.target;
-        if (en.isIntersecting) { if (v.preload === 'none') v.preload = 'auto'; var p = v.play(); if (p && p.catch) p.catch(function () {}); }
+        if (en.isIntersecting) { if (v.dataset.poster) { v.poster = v.dataset.poster; delete v.dataset.poster; } if (v.preload === 'none') v.preload = 'auto'; var p = v.play(); if (p && p.catch) p.catch(function () {}); }
         else if (!v.paused) v.pause();
       });
     }, { rootMargin: '300px 0px' });
     loops.forEach(function (v) { io.observe(v); });
-  } else { loops.forEach(function (v) { v.setAttribute('autoplay', ''); v.preload = 'auto'; }); }
+  } else { loops.forEach(function (v) { if (v.dataset.poster) v.poster = v.dataset.poster; v.setAttribute('autoplay', ''); v.preload = 'auto'; }); }
 
   // Players: pause others when one starts
   var players = document.querySelectorAll('.player video');

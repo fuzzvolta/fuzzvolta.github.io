@@ -5,7 +5,7 @@
 {% if a %}
   {% if a.type == 'loop' %}
   {% set eager = (cls == 'hero-bg') %}
-  <video class="loop {{ cls }}" {% if eager %}autoplay preload="auto"{% else %}preload="none"{% endif %} muted loop playsinline poster="{{ a.poster }}" width="{{ a.w }}" height="{{ a.h }}" aria-label="{{ alt }}">
+  <video class="loop {{ cls }}" {% if eager %}autoplay preload="auto" poster="{{ a.poster }}"{% else %}preload="none" data-poster="{{ a.poster }}"{% endif %} muted loop playsinline width="{{ a.w }}" height="{{ a.h }}" aria-label="{{ alt }}">
     <source src="{{ a.mp4 }}" type="video/mp4">
   </video>
   {% else %}
