@@ -93,7 +93,11 @@ for u in pages_out:
 sm.append("</urlset>")
 open(os.path.join(SITE, "sitemap.xml"), "w").write("\n".join(sm) + "\n")
 open(os.path.join(SITE, ".nojekyll"), "w").write("")
-open(os.path.join(SITE, "CNAME"), "w").write("diegomotion.net\n")
+# CNAME only once DNS points here (set CUTOVER=1); before that it would redirect the preview to the old site
+if os.environ.get("CUTOVER") == "1":
+    open(os.path.join(SITE, "CNAME"), "w").write("diegomotion.net\n")
+elif os.path.exists(os.path.join(SITE, "CNAME")):
+    os.remove(os.path.join(SITE, "CNAME"))
 
 # static files
 for d in ("css", "js", "fonts"):
