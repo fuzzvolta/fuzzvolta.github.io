@@ -47,9 +47,9 @@
 </figure>
 {%- endmacro %}
 
-{% macro blocks(section) -%}
+{% macro blocks(section, strip_title=None) -%}
 {% for b in section.blocks %}
-  {% if b.type == 'html' %}<div class="prose">{{ b.html|clean|safe }}</div>
+  {% if b.type == 'html' %}<div class="prose">{{ (b.html|clean|striptitle(strip_title))|safe }}</div>
   {% elif b.type == 'image' %}<figure class="img">{% if b.href %}<a href="{{ b.href }}">{% endif %}{{ picture(b.src, b.alt, '(min-width: 1000px) 60vw, 100vw') }}{% if b.href %}</a>{% endif %}{% if b.caption %}<figcaption>{{ b.caption|clean|safe }}</figcaption>{% endif %}</figure>
   {% elif b.type == 'button' %}<p><a class="btn" href="{{ b.href|replace('/contact','/contact/') }}">{{ b.label|replace('  ',' ') }}</a></p>
   {% elif b.type == 'video' and b.native %}{{ player(video(vidname[b.vid]), '') }}

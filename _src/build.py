@@ -36,6 +36,11 @@ def clean_html(s):
 
 env.filters["asset"] = asset
 env.filters["clean"] = clean_html
+def strip_title(s, title):
+    if not title: return s
+    import html as _h
+    return re.sub(r'^\s*<h[1-4]>\s*(?:<strong>)?\s*' + re.escape(_h.escape(title, quote=False)) + r'\s*(?:</strong>)?\s*</h[1-4]>', '', s, count=1)
+env.filters["striptitle"] = strip_title
 
 def video(key):
     v = dict(VIDEOS[key]); v["key"] = key

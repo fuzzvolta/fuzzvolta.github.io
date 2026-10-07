@@ -47,7 +47,7 @@ a:hover{text-decoration-color:var(--accent)}
 .btn:hover{background:var(--fg);color:var(--bg)}
 
 /* header */
-.hdr{display:flex;align-items:center;gap:24px;padding:18px var(--gutter);max-width:var(--max);margin-inline:auto;position:relative;z-index:5}
+.hdr{display:flex;width:100%;align-items:center;gap:24px;padding:18px var(--gutter);max-width:var(--max);margin-inline:auto;position:relative;z-index:5}
 .home .hdr{position:absolute;left:0;right:0;top:0;width:100%}
 .hdr-logo img{width:clamp(120px,11vw,160px);height:auto}
 .hdr-nav{display:flex;align-items:center;flex:1;gap:24px}
@@ -90,9 +90,9 @@ a:hover{text-decoration-color:var(--accent)}
 /* sections */
 .sec{padding-block:var(--sec) 0}
 .sec:last-of-type{padding-bottom:var(--sec)}
-.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:20px;border-top:1px solid var(--line);padding-top:18px;margin-bottom:28px}
+.sec-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 20px;border-top:1px solid var(--line);padding-top:18px;margin-bottom:28px}
 .sec-head .h2,.sec-head .h3{margin:0}
-.more{font-weight:500;white-space:nowrap}
+.more{font-weight:500}
 .about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(28px,5vw,80px);align-items:start}
 .about-photo{margin:0}
 .about-photo img{width:100%}
