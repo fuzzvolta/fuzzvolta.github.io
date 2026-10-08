@@ -592,12 +592,12 @@
   "proof": {
    "items": [
     {
-     "n": "120+",
-     "label": "direct-response ad variations shipped in my first 3 months at Bublishing"
+     "n": "227",
+     "label": "ad combinations from 40+ direct-response ads in under five months"
     },
     {
-     "n": "82",
-     "label": "variations in a single month"
+     "n": "3.43%",
+     "label": "CTR across those ads, with positive contribution margin"
     },
     {
      "n": "$14k+",
@@ -649,7 +649,7 @@
   "case": {
    "kicker": "Case study",
    "heading": "AI footage pipeline for direct-response ads",
-   "summary": "A repeatable way to generate UGC-style and medical-animation footage for Spanish-language ads without the “too AI” look. Built in my first months at Bublishing, documented, and adopted by the whole editor team.",
+   "summary": "A repeatable way to generate UGC-style and medical-animation footage for Spanish-language ads without the “too AI” look. Built in my first months at Ancient Remedies (Bublishing), documented, and adopted by the whole editor team.",
    "href": "/case-studies/ai-footage-pipeline/",
    "cta": "Read the case study",
    "frames": [
@@ -702,7 +702,7 @@
    "heading": "About",
    "photo": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/8de8a44d-9418-4408-9c67-4867fed4f1f8/IMG_9426.jpg",
    "paras": [
-    "I'm a video editor and motion designer working on performance ads, animation and music videos. I spent the last stretch as the Spanish-line editor at Bublishing, shipping direct-response ads at volume and building the AI footage pipeline the team now runs on. Before that: projection-mapped live visuals, branded content and fully animated music videos, usually from first idea to final delivery.",
+    "I'm a video editor and motion designer working on performance ads, animation and music videos. I spent the last stretch as the Spanish-line editor at Ancient Remedies (Bublishing), shipping direct-response ads at volume and building the AI footage pipeline the team now runs on. Before that: projection-mapped live visuals, branded content and fully animated music videos, usually from first idea to final delivery.",
     "I mix new tools with traditional craft. Sometimes that means an experimental look built in ComfyUI, sometimes character work in Toon Boom or Cinema 4D, sometimes the final polish in After Effects and DaVinci. What stays constant is storytelling: a simple idea turned into something that makes people stop.",
     "Based in Lima, regularly in Madrid, working remotely with teams in the US and Europe. Open to full-time and contract roles in performance creative, motion and AI video."
    ]
@@ -752,15 +752,15 @@
   "slug": "ai-footage-pipeline",
   "path": "/case-studies/ai-footage-pipeline/",
   "title": "AI footage pipeline for direct-response ads — case study — Diego Salas",
-  "description": "How Diego Salas built a repeatable AI footage pipeline (Higgsfield/Seedance, Google Flow, ComfyUI) for Spanish-language direct-response ads at Bublishing, adopted by the whole editor team.",
+  "description": "How Diego Salas built a repeatable AI footage pipeline (Higgsfield/Seedance, Google Flow, ComfyUI) for Spanish-language direct-response ads at Ancient Remedies (Bublishing), adopted by the whole editor team.",
   "heading": "AI footage pipeline for direct-response ads",
-  "kicker": "Case study · Bublishing · 2026",
-  "lede": "A repeatable way to generate UGC-style and medical-animation footage for Spanish-language ads without the “too AI” look. Built in my first months at Bublishing, documented, and adopted by the whole editor team.",
+  "kicker": "Case study · Ancient Remedies (Bublishing) · 2026",
+  "lede": "A repeatable way to generate UGC-style and medical-animation footage for Spanish-language ads without the “too AI” look. Built in my first months at Ancient Remedies (Bublishing), documented, and adopted by the whole editor team.",
   "sections": [
    {
     "h": "Context",
     "p": [
-     "Bublishing produced direct-response ads at volume for natural-health offers in English and Spanish. The Spanish line needed presenter footage, product shots and medical animations that didn't exist as stock, fast enough to ship dozens of variations a month."
+     "Ancient Remedies (Bublishing) produced direct-response ads at volume for natural-health offers in English and Spanish. The Spanish line needed presenter footage, product shots and medical animations that didn't exist as stock, fast enough to ship dozens of variations a month."
     ]
    },
    {
@@ -780,7 +780,8 @@
    {
     "h": "Result",
     "ul": [
-     "120+ ad variations shipped in three months, 82 of them in one month, on $14k+ of monthly spend.",
+     "40+ direct-response ads and 227 ad combinations in under five months, at 3.43% CTR and positive contribution margin, on $14k+ of monthly spend.",
+     "An AI hook-ideation skill adopted by the ~8-person editing team, plus Claude-based tools that build AI footage shot lists from live performance data and fix captions automatically.",
      "Documented the full UGC and medical prompt system and shared it in the editor channel; the Spanish team adopted it. Coached a teammate on the workflow and ran QC on her output.",
      "Proposed moving the team's generation plan to annual billing with a capped auto-refill: about $670 a year saved and no more running out of credits mid-session."
     ]
