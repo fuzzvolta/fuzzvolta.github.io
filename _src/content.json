@@ -15,8 +15,10 @@
    "tiktok": "https://www.tiktok.com/@diegoinmotion_",
    "instagram": "https://www.instagram.com/diegomotion_/"
   },
-  "default_description": "Diego Salas is a video editor and motion designer (Diegomotion): story-driven editing, motion design and animation for campaigns, paid social ads and music videos. Lima · Madrid · remote.",
-  "r2_public": "https://pub-d81255e867a5470eba99832bd248137a.r2.dev"
+  "default_description": "Paid-social video editor and motion designer. Direct-response ads, AI video production, animation and story-driven editing in English and Spanish. Remote, Lima / Madrid.",
+  "r2_public": "https://pub-d81255e867a5470eba99832bd248137a.r2.dev",
+  "calendar": "https://calendar.app.google/96s2JSSv7oMa7BXk9",
+  "cv": "/cv.pdf"
  },
  "nav": [
   {
@@ -545,5 +547,396 @@
    "description": "Logo design and logo animation by Diego Salas.",
    "item_description": "{title}: logo design and animation by Diego Salas."
   }
- ]
+ ],
+ "nav2": [
+  {
+   "label": "Work",
+   "href": "/#work"
+  },
+  {
+   "label": "Case study",
+   "href": "/case-studies/ai-footage-pipeline/"
+  },
+  {
+   "label": "About",
+   "href": "/#about"
+  },
+  {
+   "label": "Contact",
+   "href": "/#contact"
+  }
+ ],
+ "home2": {
+  "title": "Diego Salas — Video editor & motion designer for performance ads",
+  "description": "Paid-social video editor and motion designer. Direct-response ads, AI video production, animation and story-driven editing in English and Spanish. Remote, Lima / Madrid.",
+  "og_image": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/88d33380-1433-4cd2-b5ed-763723dd79d3/Purple_Alpaca_Birds.gif",
+  "hero": {
+   "bg": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/88d33380-1433-4cd2-b5ed-763723dd79d3/Purple_Alpaca_Birds.gif",
+   "name": "Diego Salas",
+   "line": "Video editor & motion designer for performance ads.",
+   "sub": "AI video, animation and story-driven editing, from concept to final cut. English + Spanish. Remote from Lima / Madrid.",
+   "cta": {
+    "label": "Book a call",
+    "href": "https://calendar.app.google/96s2JSSv7oMa7BXk9"
+   },
+   "cta2": {
+    "label": "Watch the reel",
+    "href": "#reel"
+   }
+  },
+  "reel": {
+   "heading": "Demo Reel 2026",
+   "text": "My current work in 85 seconds: AI video production, animation and paid-ad design, with a workflow that still starts and ends with craft. Looks explored in ComfyUI, character work in Toon Boom and Cinema 4D, final polish in After Effects and DaVinci. The goal is always the same: bold, clear, alive.",
+   "video": "demo-reel-2026"
+  },
+  "proof": {
+   "items": [
+    {
+     "n": "120+",
+     "label": "direct-response ad variations shipped in my first 3 months at Bublishing"
+    },
+    {
+     "n": "82",
+     "label": "variations in a single month"
+    },
+    {
+     "n": "$14k+",
+     "label": "monthly ad spend running on my edits"
+    },
+    {
+     "n": "1 pipeline",
+     "label": "for AI footage that I built, documented and the whole editor team adopted"
+    }
+   ],
+   "line": "9:16 · 4:5 · 16:9 · English and Spanish · DaVinci Resolve, After Effects, Cinema 4D, Blender, ComfyUI, Higgsfield / Seedance"
+  },
+  "paid": {
+   "heading": "Paid social ads",
+   "intro": "Direct-response ads for Ancient Remedies, a natural-health publisher: concept, edit, motion design and AI footage. English and Spanish, cut for 9:16, 4:5 and 16:9. Long-form pieces built to hold attention for minutes, not seconds.",
+   "items": [
+    {
+     "video": "paid-social-01",
+     "title": "Half the lemon",
+     "meta": "EN · 4:5 · 5:15",
+     "text": "Curiosity hook (“you're only using half the lemon”) into a long-form educational sell. Also cut in 16:9."
+    },
+    {
+     "video": "paid-social-03",
+     "title": "Price drop",
+     "meta": "EN · 4:5 · 3:22",
+     "text": "Joint-pain testimonial angle with a limited-offer close. Real footage, AI inserts and motion graphics."
+    },
+    {
+     "video": "paid-social-02",
+     "title": "Hair",
+     "meta": "ES · 9:16 · 1:30",
+     "text": "UGC-style Spanish ad: “tried the expensive treatments” angle, AI-generated presenter footage."
+    },
+    {
+     "video": "paid-social-04",
+     "title": "Face",
+     "meta": "ES · 9:16 · 1:35",
+     "text": "Skincare angle, same system, different hook."
+    },
+    {
+     "video": "paid-social-05",
+     "title": "First aid",
+     "meta": "ES · 9:16 · 1:22",
+     "text": "Essential-oil remedy angle; fast-cut demonstration."
+    }
+   ]
+  },
+  "case": {
+   "kicker": "Case study",
+   "heading": "AI footage pipeline for direct-response ads",
+   "summary": "A repeatable way to generate UGC-style and medical-animation footage for Spanish-language ads without the “too AI” look. Built in my first months at Bublishing, documented, and adopted by the whole editor team.",
+   "href": "/case-studies/ai-footage-pipeline/",
+   "cta": "Read the case study",
+   "frames": [
+    "paid-social-02",
+    "paid-social-04",
+    "paid-social-05"
+   ]
+  },
+  "also": {
+   "zealot": {
+    "heading": "ZEALOT: animated short film",
+    "text": "My animated sci-fi short, told as a music video: written, directed, animated and finished solo with a hybrid Cinema 4D / ComfyUI / Toon Boom / After Effects / DaVinci pipeline. Song by Trey Russell.",
+    "video": "zealot"
+   },
+   "marketing": {
+    "heading": "Marketing design",
+    "videos": [
+     "marketing-01",
+     "marketing-02"
+    ],
+    "gallery": [
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/eb0a904e-7bcf-44c7-9a68-10c10f979d05/aviva.png",
+      "href": null,
+      "caption": null,
+      "alt": "aviva.png"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/7375a020-cebd-4a90-97df-19772f28b1a9/vaan.png",
+      "href": null,
+      "caption": null,
+      "alt": "vaan.png"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/ec16a18a-c4e8-4352-a510-ed9cc2f1f775/Rosa+y+Rojo+Moderno+Venta+D%C3%ADa+de+la+Madre+Post+para+Facebook.png",
+      "href": null,
+      "caption": null,
+      "alt": "Rosa y Rojo Moderno Venta Día de la Madre Post para Facebook.png"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/66048e16-19c7-44e4-a64b-8c9a947959b6/Eliana+Torres.gif",
+      "href": null,
+      "caption": null,
+      "alt": "Eliana Torres.gif"
+     }
+    ]
+   }
+  },
+  "about": {
+   "heading": "About",
+   "photo": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/8de8a44d-9418-4408-9c67-4867fed4f1f8/IMG_9426.jpg",
+   "paras": [
+    "I'm a video editor and motion designer working on performance ads, animation and music videos. I spent the last stretch as the Spanish-line editor at Bublishing, shipping direct-response ads at volume and building the AI footage pipeline the team now runs on. Before that: projection-mapped live visuals, branded content and fully animated music videos, usually from first idea to final delivery.",
+    "I mix new tools with traditional craft. Sometimes that means an experimental look built in ComfyUI, sometimes character work in Toon Boom or Cinema 4D, sometimes the final polish in After Effects and DaVinci. What stays constant is storytelling: a simple idea turned into something that makes people stop.",
+    "Based in Lima, regularly in Madrid, working remotely with teams in the US and Europe. Open to full-time and contract roles in performance creative, motion and AI video."
+   ]
+  },
+  "testimonials": {
+   "heading": "Recommendations",
+   "sub": "Sourced from LinkedIn",
+   "items": [
+    {
+     "quote": "Diego's work is top tier and the effort he puts into understanding the objective of the project really helped solidify the vision. With a large skillset in all types of digital art, Diego is a great choice for whatever project you are looking for. I would highly recommend and look forward to working with him on more projects in the future.",
+     "who": "Michael Dwyer: Producer / Songwriter at Sony / ATV",
+     "img": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/be712a5a-d7be-470c-8fef-30e77c38f4d9/1736171993258.jpeg"
+    },
+    {
+     "quote": "Diego is a talented graphic designer, illustrator, and creative partner. He is among the first of visual artists to come to mind when my clients are in need of being referred to someone that can attend to their specific customized needs with nuance and tact in a timely manner.",
+     "who": "Daniel Catalan: Resume Writer",
+     "img": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/e1bd9891-bf7c-4021-b541-4caf68d645a9/1729631191135.jpeg"
+    },
+    {
+     "quote": "Diego made us a great logo very quickly. He followed the idea we had in mind yet added his own creative edge to the design, which was awesome!",
+     "who": "Daphne Binioris: Marketing Director",
+     "img": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/a30ae937-69e7-4159-aaa1-e74e2bf9aab1/1675851952437.jpeg"
+    },
+    {
+     "quote": "I've had the pleasure of working with Diego on various projects both for myself and in collaboration with clients.  Diego's attention to detail and ability to create visuals are truly something to be admired.",
+     "who": "Kenneth Ekow: Content Strategy / Start-up Consulting",
+     "img": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/21ea8f0a-ef3f-4471-9403-51b08e6c1ada/1736957209895.jpeg"
+    },
+    {
+     "quote": "Diego helped me with some visual components that complemented music I was working on. Diego is professional and working with him was a smooth process that enabled us to reach a result that I was happy with. Recommended.",
+     "who": "Fergus Brady: Musician",
+     "img": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/a350bbcd-0fe2-4f25-8d10-0a6a437f2b9e/1741382121451.jpeg"
+    },
+    {
+     "quote": "I worked alongside Diego for his audiovisual project Synesthesia. It was a blast, and Diego is so easy-going and open-minded when it comes to developing a project. He's a great person to collaborate with and an extremely talented artist. I look forward to working together again soon!",
+     "who": "Meag Gardner: English Linguist &amp; UX Writer",
+     "img": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/4be8c654-43b6-4291-929c-3e4f36125892/1750080355514.jpeg"
+    }
+   ]
+  },
+  "contact": {
+   "heading": "Let's talk.",
+   "text": "Hiring for a performance-creative, motion or AI-video role, or need an editor for a campaign? Book a 20-minute call or write to me."
+  }
+ },
+ "casestudy": {
+  "slug": "ai-footage-pipeline",
+  "path": "/case-studies/ai-footage-pipeline/",
+  "title": "AI footage pipeline for direct-response ads — case study — Diego Salas",
+  "description": "How Diego Salas built a repeatable AI footage pipeline (Higgsfield/Seedance, Google Flow, ComfyUI) for Spanish-language direct-response ads at Bublishing, adopted by the whole editor team.",
+  "heading": "AI footage pipeline for direct-response ads",
+  "kicker": "Case study · Bublishing · 2026",
+  "lede": "A repeatable way to generate UGC-style and medical-animation footage for Spanish-language ads without the “too AI” look. Built in my first months at Bublishing, documented, and adopted by the whole editor team.",
+  "sections": [
+   {
+    "h": "Context",
+    "p": [
+     "Bublishing produced direct-response ads at volume for natural-health offers in English and Spanish. The Spanish line needed presenter footage, product shots and medical animations that didn't exist as stock, fast enough to ship dozens of variations a month."
+    ]
+   },
+   {
+    "h": "Problem",
+    "p": [
+     "Early generated footage looked artificial, which hurt ad realism and burned generation credits on takes nobody could use. Spanish prompts drifted into English-market visuals when the starting frames and prompt framing were North American."
+    ]
+   },
+   {
+    "h": "What I built",
+    "ul": [
+     "A prompt system with two rule sets, <strong>UGC</strong> (handheld realism, native Spanish speakers, LATAM settings) and <strong>medical</strong> (clean animation, anatomically plausible, no text artefacts), applied to every shot before generation.",
+     "Generation on Higgsfield / Seedance 2.0 at 3:4, 8 s, 720p, with a fallback route when a shot wouldn't resolve; Google Flow for Spanish-language dialogue shots after diagnosing the language-drift problem; ComfyUI on RunPod for experimental looks.",
+     "The whole flow driven from Claude: the concept's shot list goes in, cleaned prompts come out, clips are generated, downloaded, audio-stripped and filed into the concept folder, numbered and ready for the edit."
+    ]
+   },
+   {
+    "h": "Result",
+    "ul": [
+     "120+ ad variations shipped in three months, 82 of them in one month, on $14k+ of monthly spend.",
+     "Documented the full UGC and medical prompt system and shared it in the editor channel; the Spanish team adopted it. Coached a teammate on the workflow and ran QC on her output.",
+     "Proposed moving the team's generation plan to annual billing with a capped auto-refill: about $670 a year saved and no more running out of credits mid-session."
+    ]
+   },
+   {
+    "h": "Tools",
+    "p": [
+     "Higgsfield / Seedance 2.0, Google Flow, ComfyUI + RunPod, Claude, DaVinci Resolve, After Effects."
+    ]
+   }
+  ],
+  "videos": [
+   "paid-social-02",
+   "paid-social-04",
+   "paid-social-05"
+  ],
+  "loops": []
+ },
+ "morework": {
+  "path": "/more-work/",
+  "title": "More work — Diego Salas",
+  "description": "Music videos, live visuals, personal animation and AI art by Diego Salas, 2019 to today.",
+  "heading": "More work",
+  "intro": "Music videos, live visuals, personal animation and AI art from 2019 to today.",
+  "rows": [
+   {
+    "heading": "AI Art",
+    "href": "/illustration/",
+    "items": [
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/18e73764-a79b-4e32-8d14-1fa13822e723/cat.gif",
+      "href": null,
+      "caption": null,
+      "alt": "cat.gif"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/3150ab05-747b-4ad5-93bc-7f8aa8e99c19/trippy2.gif",
+      "href": null,
+      "caption": null,
+      "alt": "trippy2.gif"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/4fda87bb-ccf6-43ea-8cf1-4249f903ac0d/trippy1.gif",
+      "href": null,
+      "caption": null,
+      "alt": "trippy1.gif"
+     }
+    ]
+   },
+   {
+    "heading": "Music Video",
+    "href": "/musicvideo/",
+    "items": [
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1641955088145-5Y8MEE0F6QPR5LW5R0RF/DWYR_wasted_time_1.gif",
+      "href": "/musicvideo/dwyr-wasted-time/"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1641955489940-BRIBR52J84GRK5S3XRDM/Kyle_MAGNVS_Waiting_3.gif",
+      "href": "/musicvideo/kyle-magnvs-waiting/"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1641955570260-3R1KTEG3NIINYHN4P4RZ/Rock_my_world.gif",
+      "href": "/musicvideo/drobceo-rock-my-world/"
+     }
+    ]
+   },
+   {
+    "heading": "Live Visuals",
+    "href": "/live-visuals/",
+    "items": [
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/ecb3e65e-e0ed-4f7e-b1d7-ae86b68ae960/Purple_Alpaca_The_Othahood_Halloween.gif",
+      "href": "https://www.instagram.com/p/CVlqNaujPzz/",
+      "caption": null,
+      "alt": "Purple_Alpaca_The_Othahood_Halloween.gif"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/a7b62e87-3bc8-4f75-8c50-a59c2cbc6dfb/Synesthesia_2.gif",
+      "href": "https://www.youtube.com/watch?v=_n2V2lL8vDc",
+      "caption": null,
+      "alt": "Synesthesia_2.gif"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/20038f1c-0768-4096-975a-3962a516aba4/Purple_Alpaca_The_Othahood_San_Isidro.gif",
+      "href": "https://www.youtube.com/watch?v=U-tPQ1L9tYQ",
+      "caption": null,
+      "alt": "Purple_Alpaca_The_Othahood_San_Isidro.gif"
+     }
+    ]
+   },
+   {
+    "heading": "Personal",
+    "href": "/animation/",
+    "items": [
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/e39d9060-6e86-4b5e-8064-645a3779bfee/Purple_Alpaca_Skate.gif",
+      "href": "https://www.instagram.com/p/CGhZNfvKeKX/",
+      "caption": null,
+      "alt": "Purple_Alpaca_Skate.gif"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1e03c636-33c1-46a3-917b-a22f3205bd98/Purple_Alpaca_Jellyfish.gif",
+      "href": "https://www.instagram.com/p/B5GSFfoq7Gb/",
+      "caption": null,
+      "alt": "Purple_Alpaca_Jellyfish.gif"
+     },
+     {
+      "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/8f427939-f434-479f-ae76-43a6c9382d62/Purple_Alpaca_Pyramids.gif",
+      "href": "https://www.instagram.com/p/B5AYwpAq13O/",
+      "caption": null,
+      "alt": "Purple_Alpaca_Pyramids.gif"
+     }
+    ]
+   }
+  ],
+  "projects": {
+   "heading": "Outstanding projects",
+   "items": [
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/8ba917cc-1e23-4825-b414-984acb54964a/girl+walking++gif+2.gif",
+     "href": "https://www.youtube.com/watch?v=zNluJ7MMjkw",
+     "caption": "Music visualizer for MRT - Holding On To What's lost",
+     "alt": "Music visualizer for MRT - Holding On To What's lost"
+    },
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/3cf16e96-dca7-4c64-974a-aed707160df6/abstract+MR++gif+2.gif",
+     "href": "https://www.youtube.com/watch?v=dnl4Un2DhLs",
+     "caption": "Music visualizer for MRT - Calling Your Name",
+     "alt": "Music visualizer for MRT - Calling Your Name"
+    },
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/21f7d9aa-d60a-4bd6-96f8-b441530264d4/girl+flying++gif+2.gif",
+     "href": "https://www.youtube.com/watch?v=H_cMphs0b1M",
+     "caption": "Music visualizer for MRT - Find Yourself Again",
+     "alt": "Music visualizer for MRT - Find Yourself Again"
+    },
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/1166bee5-f092-42bd-90fd-754a49029465/colombia.gif",
+     "href": "https://www.instagram.com/p/CylvGNGgOXD/?igshid=MzRlODBiNWFlZA%3D%3D&utm_source=ig_web_copy_link",
+     "caption": "Map Animations for PBS docuseries",
+     "alt": "Map Animations for PBS docuseries"
+    },
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/7d7b73db-24b3-4939-abb6-2c64bcd5741b/flowers+comp+gif.gif",
+     "href": "https://www.instagram.com/p/DNitn7GKg1r/",
+     "caption": "AI nature series",
+     "alt": "AI nature series"
+    },
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/61d3c65a4d3add4b62095ed9/49599904-89c9-4ada-93de-448d905986d9/Kyle_MAGNVS_Waiting_2.gif",
+     "href": "https://www.youtube.com/watch?v=PnjjJdxDa4w",
+     "caption": "Kyle MAGNVS - Waiting music video",
+     "alt": "Kyle MAGNVS - Waiting music video"
+    }
+   ]
+  }
+ }
 }

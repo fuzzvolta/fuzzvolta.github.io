@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% from "_macros.html" import player %}
+{% block bodyclass %}v2{% endblock %}
+{% block content %}
+<article class="sec wrap page cs">
+  <p class="kicker">{{ cs.kicker }}</p>
+  <h1 class="h1">{{ cs.heading }}</h1>
+  <p class="lede">{{ cs.lede }}</p>
+  <div class="cs-media">
+    {% for k in cs.loops %}{% set v = video(k) %}<video class="loop" preload="none" data-poster="{{ v.poster }}" muted loop playsinline aria-label="Generated ad loop"><source src="{{ v.src }}" type="video/mp4"></video>{% endfor %}
+    {% for k in cs.videos %}{{ player(video(k), 'Spanish-language ad built with the pipeline') }}{% endfor %}
+  </div>
+  <div class="cs-body">
+    {% for s in cs.sections %}
+    <section class="cs-sec">
+      <h2 class="h3">{{ s.h }}</h2>
+      <div class="prose">
+        {% for p in s.p or [] %}<p>{{ p|safe }}</p>{% endfor %}
+        {% if s.ul %}<ul>{% for li in s.ul %}<li>{{ li|safe }}</li>{% endfor %}</ul>{% endif %}
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+  <nav class="pager"><a href="/#work"><span class="muted">Back</span><br>Paid social ads</a><a class="right" href="{{ site.calendar }}" target="_blank" rel="noopener"><span class="muted">Next</span><br>Book a call</a></nav>
+</article>
+{% endblock %}

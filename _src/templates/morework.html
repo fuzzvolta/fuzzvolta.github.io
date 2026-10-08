@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% from "_macros.html" import gallery %}
+{% block bodyclass %}v2{% endblock %}
+{% block content %}
+<section class="sec wrap page">
+  <h1 class="h1">{{ mw.heading }}</h1>
+  <p class="lede">{{ mw.intro }}</p>
+  <div class="sec-head"><h2 class="h2">{{ mw.projects.heading }}</h2></div>
+  {{ gallery(mw.projects['items'], 3) }}
+</section>
+{% for row in mw.rows %}
+<section class="sec wrap row">
+  <div class="sec-head">
+    <h2 class="h2">{{ row.heading }}</h2>
+    <a class="more" href="{{ row.href }}">View more</a>
+  </div>
+  {{ gallery(row['items'], 3) }}
+</section>
+{% endfor %}
+{% endblock %}

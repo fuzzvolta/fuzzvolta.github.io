@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% from "_macros.html" import picture, gallery, player %}
+{% block bodyclass %}home v2{% endblock %}
+{% block preload %}{% set hb = page.hero.bg|asset %}{% if hb %}<link rel="preload" as="image" href="{{ hb.poster if hb.type == 'loop' else hb.src }}" fetchpriority="high">{% endif %}{% endblock %}
+{% block content %}
+{% set h = page.hero %}
+<section class="hero">
+  {{ picture(h.bg, '', '100vw', lazy=false, cls='hero-bg') }}
+  <div class="hero-text wrap">
+    <h1 class="display">{{ h.name }}</h1>
+    <p class="hero-line">{{ h.line }}</p>
+    <p class="hero-sub">{{ h.sub }}</p>
+    <p class="hero-ctas"><a class="btn solid" href="{{ h.cta.href }}" target="_blank" rel="noopener">{{ h.cta.label }}</a> <a class="btn" href="{{ h.cta2.href }}">{{ h.cta2.label }}</a></p>
+  </div>
+</section>
+
+<section class="sec wrap" id="reel">
+  <div class="reel-grid">
+    <div>
+      <h2 class="h2">{{ page.reel.heading }}</h2>
+      <p class="prose">{{ page.reel.text }}</p>
+    </div>
+  </div>
+  {{ player(video(page.reel.video), 'Demo reel 2026') }}
+  <ul class="proof">
+    {% for p in page.proof['items'] %}
+    <li><span class="num">{{ p.n }}</span><span class="lbl">{{ p.label }}</span></li>
+    {% endfor %}
+  </ul>
+  <p class="proof-line muted">{{ page.proof.line }}</p>
+</section>
+
+<section class="sec wrap" id="work">
+  <div class="sec-head"><h2 class="h2">{{ page.paid.heading }}</h2></div>
+  <p class="lede">{{ page.paid.intro }}</p>
+  <ul class="ads">
+    {% for ad in page.paid['items'] %}
+    {% set v = video(ad.video) %}
+    <li class="ad{% if v.vertical %} v{% endif %}">
+      {{ player(v, ad.title ~ ' — paid social ad') }}
+      <h3 class="h4">{{ ad.title }} <span class="meta">{{ ad.meta }}</span></h3>
+      <p>{{ ad.text }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="sec wrap" id="case">
+  <a class="case" href="{{ page.case.href }}">
+    <div class="case-text">
+      <p class="kicker">{{ page.case.kicker }}</p>
+      <h2 class="h2">{{ page.case.heading }}</h2>
+      <p class="lede">{{ page.case.summary }}</p>
+      <span class="btn">{{ page.case.cta }}</span>
+    </div>
+    <div class="case-media">
+      {% for k in page.case.frames %}{% set v = video(k) %}<img loading="lazy" src="{{ v.poster }}" alt="Frame from a Spanish-language ad built with the pipeline" width="1080" height="1920">{% endfor %}
+    </div>
+  </a>
+</section>
+
+<section class="sec wrap" id="also">
+  <div class="also-grid">
+    <div>
+      <h2 class="h3">{{ page.also.zealot.heading }}</h2>
+      <p class="prose">{{ page.also.zealot.text }}</p>
+      {{ player(video(page.also.zealot.video), 'ZEALOT animated short film') }}
+    </div>
+    <div>
+      <h2 class="h3">{{ page.also.marketing.heading }}</h2>
+      <div class="two">{% for k in page.also.marketing.videos %}{{ player(video(k), 'Marketing design video') }}{% endfor %}</div>
+      <div class="mt">{{ gallery(page.also.marketing.gallery, 4) }}</div>
+    </div>
+  </div>
+</section>
+
+<section class="sec wrap" id="about">
+  <div class="about-grid">
+    <div>
+      <h2 class="h2">{{ page.about.heading }}</h2>
+      <div class="prose">{% for p in page.about.paras %}<p>{{ p }}</p>{% endfor %}</div>
+      <p class="links"><a href="{{ site.cv }}" download>Download CV</a> · <a href="{{ site.social.linkedin }}" rel="me noopener" target="_blank">LinkedIn</a> · <a href="{{ site.calendar }}" target="_blank" rel="noopener">Book a call</a></p>
+    </div>
+    <figure class="about-photo">{{ picture(page.about.photo, 'Diego Salas', '(min-width: 1000px) 40vw, 100vw') }}</figure>
+  </div>
+</section>
+
+<section class="sec wrap" id="recommendations">
+  <div class="sec-head">
+    <h2 class="h2">{{ page.testimonials.heading }}</h2>
+    <span class="more muted">{{ page.testimonials.sub }}</span>
+  </div>
+  <ul class="quotes">
+    {% for t in page.testimonials['items'] %}
+    <li class="quote">
+      <blockquote><p>{{ t.quote }}</p></blockquote>
+      <div class="who">{% set av = t.img|asset %}{% if av %}<img loading="lazy" src="{{ av.sizes['800'] or av.src }}" width="48" height="48" alt="">{% endif %}<p>{{ t.who|safe }}</p></div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="sec wrap" id="contact">
+  <div class="contact-block">
+    <h2 class="h1">{{ page.contact.heading }}</h2>
+    <p class="lede">{{ page.contact.text }}</p>
+    <p class="hero-ctas"><a class="btn solid" href="{{ site.calendar }}" target="_blank" rel="noopener">Book a call</a> <a class="btn" href="mailto:{{ site.email }}?subject=Project%20inquiry">Email {{ site.email }}</a> <a class="btn" href="{{ site.cv }}" download>Download CV</a></p>
+    <p class="muted small">{{ site.phones[0] }} (Spain) · {{ site.phones[1] }} (Peru) · <a href="{{ site.social.linkedin }}" rel="me noopener" target="_blank">LinkedIn</a> · <a href="{{ site.social.instagram }}" rel="me noopener" target="_blank">Instagram</a> · <a href="{{ site.social.tiktok }}" rel="me noopener" target="_blank">TikTok</a></p>
+  </div>
+</section>
+{% endblock %}

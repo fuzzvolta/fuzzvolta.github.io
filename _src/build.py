@@ -55,18 +55,41 @@ def write(path, html):
     os.makedirs(os.path.dirname(out), exist_ok=True)
     open(out, "w").write(html)
 
+PHASE2 = os.environ.get("PHASE2") == "1"
+PREFIX = os.environ.get("PREFIX", "").rstrip("/")   # e.g. /v2 for a preview build under a subfolder
+
+def prefix_links(html):
+    """For a preview under PREFIX: internal page links get the prefix; assets, cv and anchors on the home stay."""
+    if not PREFIX: return html
+    def rep(m):
+        href = m.group(2)
+        if href.startswith(("/assets/", "/cv.pdf")): return m.group(0)
+        return f'{m.group(1)}="{PREFIX}{href}"'
+    html = re.sub(r'(href)="(/[^"]*)"', rep, html)
+    return html
+
 def render(template, path, **ctx):
     t = env.get_template(template)
     canonical = BASE_URL + (path if path.endswith("/") or path == "/" else path + "/")
-    html = t.render(site=CONTENT["site"], nav=CONTENT["nav"], footer=CONTENT["footer"], canonical=canonical, path=path, **ctx)
-    write(path, html)
+    nav = CONTENT["nav2"] if (PHASE2 and "nav2" in CONTENT) else CONTENT["nav"]
+    html = t.render(site=CONTENT["site"], nav=nav, footer=CONTENT["footer"], canonical=canonical, path=path, v2=PHASE2, noindex=bool(PREFIX), **ctx)
+    html = prefix_links(html)
+    write((PREFIX + path) if PREFIX else path, html)
     return canonical
 
 pages_out = []
 
 # ---- Home
-home = CONTENT["home"]
-pages_out.append(render("home.html", "/", page=home, title=home["title"], description=home["description"], og_image=home["og_image"]))
+if PHASE2:
+    home = CONTENT["home2"]
+    pages_out.append(render("home2.html", "/", page=home, title=home["title"], description=home["description"], og_image=home["og_image"]))
+    cs = CONTENT["casestudy"]
+    pages_out.append(render("casestudy.html", cs["path"], cs=cs, title=cs["title"], description=cs["description"], og_image=home["og_image"]))
+    mw = CONTENT["morework"]
+    pages_out.append(render("morework.html", mw["path"], mw=mw, title=mw["title"], description=mw["description"], og_image=home["og_image"]))
+else:
+    home = CONTENT["home"]
+    pages_out.append(render("home.html", "/", page=home, title=home["title"], description=home["description"], og_image=home["og_image"]))
 
 # ---- Simple pages (sections rendered generically from the extracted model)
 for slug, meta in CONTENT["pages"].items():
@@ -88,7 +111,15 @@ for coll in CONTENT["portfolio"]:
         pages_out.append(render("portfolio_item.html", it["path"], coll=coll, item=it, prev_item=prev_item, next_item=next_item,
                                 title=f"{it['title']} — {coll['title']}", description=coll["item_description"].format(title=it["title"])))
 
-# ---- 404, robots, sitemap, CNAME, .nojekyll
+# ---- 404, robots, sitemap, CNAME, .nojekyll (skipped for a prefixed preview build)
+def copy_static():
+    for d in ("css", "js", "fonts"):
+        src = os.path.join(HERE, "static", d); dst = os.path.join(SITE, "assets", d)
+        if os.path.isdir(src):
+            if os.path.isdir(dst): shutil.rmtree(dst)
+            shutil.copytree(src, dst)
+if PREFIX:
+    copy_static(); print(f"preview build under {PREFIX}: {len(pages_out)} pages"); raise SystemExit
 render("404.html", "/404.html", title="Page not found", description="")
 open(os.path.join(SITE, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n")
 today = datetime.date.today().isoformat()

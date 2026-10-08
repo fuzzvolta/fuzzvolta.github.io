@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI footage pipeline for direct-response ads — case study — Diego Salas</title>
+<meta name="description" content="How Diego Salas built a repeatable AI footage pipeline (Higgsfield/Seedance, Google Flow, ComfyUI) for Spanish-language direct-response ads at Bublishing, adopted by the whole editor team.">
+<link rel="canonical" href="https://diegomotion.net/case-studies/ai-footage-pipeline/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Diegomotion">
+<meta property="og:title" content="AI footage pipeline for direct-response ads — case study — Diego Salas">
+<meta property="og:description" content="How Diego Salas built a repeatable AI footage pipeline (Higgsfield/Seedance, Google Flow, ComfyUI) for Spanish-language direct-response ads at Bublishing, adopted by the whole editor team.">
+<meta property="og:url" content="https://diegomotion.net/case-studies/ai-footage-pipeline/">
+<meta property="og:image" content="https://diegomotion.net/assets/img/purple-alpaca-birds-7beb9a-poster.webp"><meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#000000">
+<meta name="robots" content="noindex, nofollow"><link rel="icon" href="/assets/img/favicon-ef36fd-800.webp" type="image/webp"><link rel="preload" href="/assets/fonts/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Diego Salas","alternateName":"Diegomotion","url":"https://diegomotion.net","email":"mailto:diego@diegomotion.net","jobTitle":"Video editor & motion designer","sameAs":["https://www.linkedin.com/in/diegosalastorres/","https://www.instagram.com/diegomotion_/","https://www.tiktok.com/@diegoinmotion_"]}
+</script>
+</head>
+<body class="v2">
+<a class="skip" href="#main">Skip to content</a>
+<header class="hdr">
+  <a class="hdr-logo" href="/v2/" aria-label="Diegomotion home">
+    <img src="/assets/img/logo-sketch-transparent-91322a-800.webp" width="800" height="169" alt="Diegomotion">
+  </a>
+  <button class="hdr-menu" aria-expanded="false" aria-controls="nav" data-menu>Menu</button>
+  <nav class="hdr-nav" id="nav">
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a class="nav-link" href="/v2/#work">Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/v2/case-studies/ai-footage-pipeline/" aria-current="page">Case study</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/v2/#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/v2/#contact">Contact</a>
+      </li>
+    </ul>
+    <ul class="nav-social">
+<li class="nav-cta"><a class="btn small" href="https://calendar.app.google/96s2JSSv7oMa7BXk9" target="_blank" rel="noopener">Book a call</a></li>      <li><a href="https://www.linkedin.com/in/diegosalastorres/" rel="me noopener" target="_blank">LinkedIn</a></li>
+      <li><a href="https://www.instagram.com/diegomotion_/" rel="me noopener" target="_blank">Instagram</a></li>
+      <li><a href="https://www.tiktok.com/@diegoinmotion_" rel="me noopener" target="_blank">TikTok</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+<article class="sec wrap page cs">
+  <p class="kicker">Case study · Bublishing · 2026</p>
+  <h1 class="h1">AI footage pipeline for direct-response ads</h1>
+  <p class="lede">A repeatable way to generate UGC-style and medical-animation footage for Spanish-language ads without the “too AI” look. Built in my first months at Bublishing, documented, and adopted by the whole editor team.</p>
+  <div class="cs-media">
+<figure class="player vertical" style="--ar:0.5625">
+  <video controls preload="none" playsinline poster="/assets/poster/paid-social-02.webp" aria-label="Spanish-language ad built with the pipeline">
+    <source src="https://pub-d81255e867a5470eba99832bd248137a.r2.dev/paid-social-02.mp4" type="video/mp4">
+  </video>
+</figure><figure class="player vertical" style="--ar:0.5625">
+  <video controls preload="none" playsinline poster="/assets/poster/paid-social-04.webp" aria-label="Spanish-language ad built with the pipeline">
+    <source src="https://pub-d81255e867a5470eba99832bd248137a.r2.dev/paid-social-04.mp4" type="video/mp4">
+  </video>
+</figure><figure class="player vertical" style="--ar:0.5625">
+  <video controls preload="none" playsinline poster="/assets/poster/paid-social-05.webp" aria-label="Spanish-language ad built with the pipeline">
+    <source src="https://pub-d81255e867a5470eba99832bd248137a.r2.dev/paid-social-05.mp4" type="video/mp4">
+  </video>
+</figure>  </div>
+  <div class="cs-body">
+    <section class="cs-sec">
+      <h2 class="h3">Context</h2>
+      <div class="prose">
+<p>Bublishing produced direct-response ads at volume for natural-health offers in English and Spanish. The Spanish line needed presenter footage, product shots and medical animations that didn't exist as stock, fast enough to ship dozens of variations a month.</p>      </div>
+    </section>
+    <section class="cs-sec">
+      <h2 class="h3">Problem</h2>
+      <div class="prose">
+<p>Early generated footage looked artificial, which hurt ad realism and burned generation credits on takes nobody could use. Spanish prompts drifted into English-market visuals when the starting frames and prompt framing were North American.</p>      </div>
+    </section>
+    <section class="cs-sec">
+      <h2 class="h3">What I built</h2>
+      <div class="prose">
+<ul><li>A prompt system with two rule sets, <strong>UGC</strong> (handheld realism, native Spanish speakers, LATAM settings) and <strong>medical</strong> (clean animation, anatomically plausible, no text artefacts), applied to every shot before generation.</li><li>Generation on Higgsfield / Seedance 2.0 at 3:4, 8 s, 720p, with a fallback route when a shot wouldn't resolve; Google Flow for Spanish-language dialogue shots after diagnosing the language-drift problem; ComfyUI on RunPod for experimental looks.</li><li>The whole flow driven from Claude: the concept's shot list goes in, cleaned prompts come out, clips are generated, downloaded, audio-stripped and filed into the concept folder, numbered and ready for the edit.</li></ul>      </div>
+    </section>
+    <section class="cs-sec">
+      <h2 class="h3">Result</h2>
+      <div class="prose">
+<ul><li>120+ ad variations shipped in three months, 82 of them in one month, on $14k+ of monthly spend.</li><li>Documented the full UGC and medical prompt system and shared it in the editor channel; the Spanish team adopted it. Coached a teammate on the workflow and ran QC on her output.</li><li>Proposed moving the team's generation plan to annual billing with a capped auto-refill: about $670 a year saved and no more running out of credits mid-session.</li></ul>      </div>
+    </section>
+    <section class="cs-sec">
+      <h2 class="h3">Tools</h2>
+      <div class="prose">
+<p>Higgsfield / Seedance 2.0, Google Flow, ComfyUI + RunPod, Claude, DaVinci Resolve, After Effects.</p>      </div>
+    </section>
+  </div>
+  <nav class="pager"><a href="/v2/#work"><span class="muted">Back</span><br>Paid social ads</a><a class="right" href="https://calendar.app.google/96s2JSSv7oMa7BXk9" target="_blank" rel="noopener"><span class="muted">Next</span><br>Book a call</a></nav>
+</article>
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr-ig">
+      <div class="sec-head">
+        <h2 class="h3">Follow me on Instagram</h2>
+        <a class="more" href="https://www.instagram.com/diegomotion_/" rel="me noopener" target="_blank">@diegomotion_</a>
+      </div>
+      <ul class="ig-grid">
+        <li><a href="https://www.instagram.com/diegomotion_/" rel="noopener" target="_blank"><img loading="lazy" src="/assets/img/image-asset-6dd3f3-800.webp" width="640" height="360" alt="Instagram post by @diegomotion_"></a></li>
+        <li><a href="https://www.instagram.com/diegomotion_/" rel="noopener" target="_blank"><img loading="lazy" src="/assets/img/image-asset-8df5f9-800.webp" width="640" height="360" alt="Instagram post by @diegomotion_"></a></li>
+        <li><a href="https://www.instagram.com/diegomotion_/" rel="noopener" target="_blank"><img loading="lazy" src="/assets/img/image-asset-7d9d5e-800.webp" width="640" height="360" alt="Instagram post by @diegomotion_"></a></li>
+        <li><a href="https://www.instagram.com/diegomotion_/" rel="noopener" target="_blank"><img loading="lazy" src="/assets/img/image-asset-4358c7-800.webp" width="1206" height="2144" alt="Instagram post by @diegomotion_"></a></li>
+        <li><a href="https://www.instagram.com/diegomotion_/" rel="noopener" target="_blank"><img loading="lazy" src="/assets/img/image-asset-a4946e-800.webp" width="1350" height="1688" alt="Instagram post by @diegomotion_"></a></li>
+        <li><a href="https://www.instagram.com/diegomotion_/" rel="noopener" target="_blank"><img loading="lazy" src="/assets/img/image-asset-cd8409-800.webp" width="880" height="1068" alt="Instagram post by @diegomotion_"></a></li>
+      </ul>
+    </div>
+    <div class="ftr-bar">
+      <p class="ftr-brand"><strong>Diegomotion</strong> · Diego Salas · video editor &amp; motion designer<br><a href="/v2/more-work/">More work: music video, live visuals, animation, AI art</a></p>
+      <p class="ftr-contact"><a href="mailto:diego@diegomotion.net">diego@diegomotion.net</a><br>+34 666 262 884 · +51 944 660 553</p>
+      <p class="ftr-legal">© 2026 Diego Salas · <a href="/v2/politica-de-privacidad/">Privacy policy</a></p>
+    </div>
+  </div>
+</footer>
+<script src="/assets/js/site.js" defer></script>
+<!-- Cloudflare Web Analytics (cookieless) --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "4f97cb577a2b44f79f338b5ab6fb5524"}'></script>
+</body>
+</html>
