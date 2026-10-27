@@ -41,6 +41,13 @@ def strip_title(s, title):
     import html as _h
     return re.sub(r'^\s*<h[1-4]>\s*(?:<strong>)?\s*' + re.escape(_h.escape(title, quote=False)) + r'\s*(?:</strong>)?\s*</h[1-4]>', '', s, count=1)
 env.filters["striptitle"] = strip_title
+def clean_alt(s):
+    """Turn leftover Squarespace filename alts ("Lima.jpg", "black_DAN LOGO-01.jpg") into readable text."""
+    if not s or not re.search(r'\.(png|gif|jpe?g|webp)$', s, re.I): return s or ""
+    s = re.sub(r'\.(png|gif|jpe?g|webp)$', '', s, flags=re.I)
+    s = re.sub(r'[_+]+', ' ', s); s = re.sub(r'(-0\d)+$', '', s); s = re.sub(r'\s+', ' ', s).strip()
+    return s
+env.filters["cleanalt"] = clean_alt
 
 def video(key):
     v = dict(VIDEOS[key]); v["key"] = key
@@ -55,7 +62,8 @@ def write(path, html):
     os.makedirs(os.path.dirname(out), exist_ok=True)
     open(out, "w").write(html)
 
-PHASE2 = os.environ.get("PHASE2") == "1"
+PHASE3 = os.environ.get("PHASE3") == "1"
+PHASE2 = os.environ.get("PHASE2") == "1" or PHASE3
 PREFIX = os.environ.get("PREFIX", "").rstrip("/")   # e.g. /v2 for a preview build under a subfolder
 
 def prefix_links(html):
@@ -71,8 +79,8 @@ def prefix_links(html):
 def render(template, path, **ctx):
     t = env.get_template(template)
     canonical = BASE_URL + (path if path.endswith("/") or path == "/" else path + "/")
-    nav = CONTENT["nav2"] if (PHASE2 and "nav2" in CONTENT) else CONTENT["nav"]
-    html = t.render(site=CONTENT["site"], nav=nav, footer=CONTENT["footer"], canonical=canonical, path=path, v2=PHASE2, noindex=bool(PREFIX), **ctx)
+    nav = CONTENT["nav3"] if PHASE3 else (CONTENT["nav2"] if (PHASE2 and "nav2" in CONTENT) else CONTENT["nav"])
+    html = t.render(site=CONTENT["site"], nav=nav, footer=CONTENT["footer"], canonical=canonical, path=path, v2=PHASE2, v3=PHASE3, noindex=bool(PREFIX), **ctx)
     html = prefix_links(html)
     write((PREFIX + path) if PREFIX else path, html)
     return canonical
@@ -81,8 +89,8 @@ pages_out = []
 
 # ---- Home
 if PHASE2:
-    home = CONTENT["home2"]
-    pages_out.append(render("home2.html", "/", page=home, title=home["title"], description=home["description"], og_image=home["og_image"]))
+    home = CONTENT["home3" if PHASE3 else "home2"]
+    pages_out.append(render("home3.html" if PHASE3 else "home2.html", "/", page=home, title=home["title"], description=home["description"], og_image=home["og_image"]))
     cs = CONTENT["casestudy"]
     pages_out.append(render("casestudy.html", cs["path"], cs=cs, title=cs["title"], description=cs["description"], og_image=home["og_image"]))
     mw = CONTENT["morework"]

@@ -111,5 +111,14 @@
   "src": "/assets/video/adlab-02.mp4",
   "poster": "/assets/poster/adlab-02.webp",
   "remote": false
+ },
+ "demo-reel-2026-v3": {
+  "dur": 85.5,
+  "ar": 1.7778,
+  "vertical": false,
+  "src": "/assets/video/demo-reel-2026-1080.mp4",
+  "poster": "/assets/poster/demo-reel-2026-v3.webp",
+  "remote": false,
+  "src720": "/assets/video/demo-reel-2026-720.mp4"
  }
 }

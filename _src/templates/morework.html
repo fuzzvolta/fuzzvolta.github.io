@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import gallery %}
+{% from "_macros.html" import gallery, player %}
 {% block bodyclass %}v2{% endblock %}
 {% block content %}
 <section class="sec wrap page">
@@ -17,4 +17,25 @@
   {{ gallery(row['items'], 3) }}
 </section>
 {% endfor %}
+{% if v3 and mw.design %}
+<section class="sec wrap row" id="design">
+  <div class="sec-head">
+    <h2 class="h2">{{ mw.design.heading }}</h2>
+    <span class="more">{% for l in mw.design.links %}<a href="{{ l.href }}">{{ l.label }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</span>
+  </div>
+  <div class="two">{% for k in mw.design.videos %}{{ player(video(k), 'Marketing design video ' ~ loop.index) }}{% endfor %}</div>
+  <div class="mt">{{ gallery(mw.design.gallery, 4) }}</div>
+</section>
+{% endif %}
+{% if v3 and mw.testimonials %}
+<section class="sec wrap row">
+  <div class="sec-head"><h2 class="h2">{{ mw.testimonials.heading }}</h2></div>
+  <ul class="quotes">
+    {% for t in mw.testimonials['items'] %}
+    <li class="quote"><blockquote><p>{{ t.quote }}</p></blockquote>
+      <div class="who">{% set av = t.img|asset %}{% if av %}<img loading="lazy" src="{{ av.sizes['800'] or av.src }}" width="48" height="48" alt="">{% endif %}<p>{{ t.who|safe }}</p></div></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
 {% endblock %}

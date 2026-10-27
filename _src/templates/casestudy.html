@@ -21,6 +21,7 @@
     </section>
     {% endfor %}
   </div>
-  <nav class="pager"><a href="/#work"><span class="muted">Back</span><br>Paid social ads</a><a class="right" href="{{ site.calendar }}" target="_blank" rel="noopener"><span class="muted">Next</span><br>Book a call</a></nav>
+  {% if v3 and cs.pager %}<nav class="pager"><a href="{{ cs.pager.back.href }}"><span class="muted">Back</span><br>{{ cs.pager.back.label }}</a><a class="right" href="{{ cs.pager.next.href }}" target="_blank" rel="noopener"><span class="muted">Next</span><br>{{ cs.pager.next.label }}</a></nav>
+  {% else %}<nav class="pager"><a href="/#work"><span class="muted">Back</span><br>Paid social ads</a><a class="right" href="{{ site.calendar }}" target="_blank" rel="noopener"><span class="muted">Next</span><br>Book a call</a></nav>{% endif %}
 </article>
 {% endblock %}
