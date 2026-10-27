@@ -79,7 +79,7 @@
     <div>
       <h2 class="h2">{{ page.about.heading }}</h2>
       <div class="prose">{% for p in page.about.paras %}<p>{{ p }}</p>{% endfor %}</div>
-      <p class="links"><a href="{{ site.cv }}" download>Download CV</a> · <a href="{{ site.social.linkedin }}" rel="me noopener" target="_blank">LinkedIn</a> · <a href="{{ site.calendar }}" target="_blank" rel="noopener">Book a call</a></p>
+      <p class="links"><a href="{{ site.social.linkedin }}" rel="me noopener" target="_blank">LinkedIn</a> · <a href="{{ site.calendar }}" target="_blank" rel="noopener">Book a call</a></p>
     </div>
     <figure class="about-photo">{{ picture(page.about.photo, 'Diego Salas', '(min-width: 1000px) 40vw, 100vw') }}</figure>
   </div>
@@ -104,7 +104,7 @@
   <div class="contact-block">
     <h2 class="h1">{{ page.contact.heading }}</h2>
     <p class="lede">{{ page.contact.text }}</p>
-    <p class="hero-ctas"><a class="btn solid" href="{{ site.calendar }}" target="_blank" rel="noopener">Book a call</a> <a class="btn" href="mailto:{{ site.email }}?subject=Project%20inquiry">Email {{ site.email }}</a> <a class="btn" href="{{ site.cv }}" download>Download CV</a></p>
+    <p class="hero-ctas"><a class="btn solid" href="{{ site.calendar }}" target="_blank" rel="noopener">Book a call</a> <a class="btn" href="mailto:{{ site.email }}?subject=Project%20inquiry">Email {{ site.email }}</a></p>
     <p class="muted small">{{ site.phones[0] }} (Spain) · {{ site.phones[1] }} (Peru) · <a href="{{ site.social.linkedin }}" rel="me noopener" target="_blank">LinkedIn</a> · <a href="{{ site.social.instagram }}" rel="me noopener" target="_blank">Instagram</a> · <a href="{{ site.social.tiktok }}" rel="me noopener" target="_blank">TikTok</a></p>
   </div>
 </section>
